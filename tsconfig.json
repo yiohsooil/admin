@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // React 17+의 새로운 JSX 변환을 사용
+    "jsxImportSource": "react", // React를 기본 JSX 라이브러리로 사용
+    "module": "ESNext", // 최신 ES 모듈을 사용
+    "target": "ESNext", // 최신 ECMAScript 타겟으로 컴파일
+    "moduleResolution": "Node", // Node 방식의 모듈 해석
+    "esModuleInterop": true, // CommonJS와의 호환성 제공
+    "resolveJsonModule": true, // JSON 모듈을 불러올 수 있도록 설정
+    "strict": true, // 엄격한 타입 검사를 적용
+    "forceConsistentCasingInFileNames": true, // 파일명 대소문자 일관성 유지
+    "skipLibCheck": true, // 라이브러리 타입 검사를 건너뜀 (성능 최적화)
+    "isolatedModules": true, // 개별 모듈 컴파일 (Vite와 호환성 개선)
+    "allowSyntheticDefaultImports": true // React import를 디폴트로 사용 허용
+  },
+  "include": ["src"], // 'src' 폴더 안의 모든 파일을 컴파일 대상으로 포함
+  "exclude": ["node_modules"] // 'node_modules' 폴더는 제외
+}
