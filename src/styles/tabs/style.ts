@@ -5,4 +5,6 @@ import { Box } from '@mui/material';
 
 export const CustomTabs = styled(Tabs)``;
 export const CustomTab = styled(Tab)``;
-export const CustomBox = styled(Box)``;
+export const CustomBox = styled(Box)`
+  padding: 0;
+`;

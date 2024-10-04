@@ -1,5 +1,5 @@
 import React from 'react';
-import Styled from '../../styles/login';
+import { Styled } from '../../styles/login';
 import anydana from '../../assets/anydana.svg';
 import plus from '../../assets/plus.svg';
 

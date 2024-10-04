@@ -62,11 +62,20 @@ export const CustomTableCell = styled(TableCell)<{ active?: number }>`
   color: ${({ active }) => (active === 1 ? '#1890ff' : '#000')};
   transition: all 0.2s ease-out;
 `;
-export const CustomTableHead = styled(TableHead)``;
-export const CustomTableRow = styled(TableRow)`
+export const CustomTableHead = styled(TableHead)<{ active?: number }>`
+  & th {
+    border-right: 1px solid ${({ active }) => (active === 1 ? '#ccc' : 'none')};
+  }
+  & th:last-child {
+    border-right: none;
+  }
+`;
+
+export const CustomTableRow = styled(TableRow)<{ active?: number }>`
   transition: all 0.2s ease-out;
   &:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: ${({ active }) =>
+      active === 1 ? 'rgba(0,0,0,0.05)' : 'none'};
   }
 `;
 export const CustomSwitch = styled(Switch)`

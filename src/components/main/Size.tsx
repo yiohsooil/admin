@@ -1,8 +1,8 @@
 import React from 'react';
-import Styled from '../../styles/main/table';
-import { main } from '../../types';
+import { Styled } from '../../styles/main/table';
+import { MainType } from '../../types';
 
-const Size = ({ limit, handleChangeLimit }: main.SizeProps) => {
+const Size = ({ limit, handleChangeLimit }: MainType.SizeProps) => {
   return (
     <Styled.CustomFormControl>
       <Styled.CustomInputLabel id="demo-simple-select-label">

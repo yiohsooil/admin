@@ -1,8 +1,11 @@
 import React from 'react';
-import Styled from '../../styles/main/search';
-import { main } from '../../types';
+import { Styled } from '../../styles/main/search';
+import { MainType } from '../../types';
 
-const Search = ({ searchValue, handleChangeSearchValue }: main.SearchProps) => {
+const Search = ({
+  searchValue,
+  handleChangeSearchValue,
+}: MainType.SearchProps) => {
   return (
     <Styled.SearchContainer>
       <Styled.SearchSelect>

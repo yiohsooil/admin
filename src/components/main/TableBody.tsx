@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Styled from '../../styles/main/table';
+import { Styled } from '../../styles/main/table';
 import { FormGroup, Stack, Typography } from '@mui/material';
 import Pump from './pump/Pump';
-import { main } from '../../types';
+import { MainType } from '../../types';
 
-const TableBody = ({ rows }: main.TableBodyProps) => {
+const TableBody = ({ rows }: MainType.TableBodyProps) => {
   const [state, setState] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
@@ -32,6 +32,7 @@ const TableBody = ({ rows }: main.TableBodyProps) => {
           <Styled.CustomTableRow
             key={index}
             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+            active={1}
           >
             <Styled.CustomTableCell
               component="th"

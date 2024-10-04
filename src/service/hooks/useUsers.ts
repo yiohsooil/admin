@@ -1,7 +1,8 @@
 import { useQuery } from '@tanstack/react-query';
-import { FetchUsersProps, usersApi } from '../api/usersApi';
+import { usersApi } from '../api/usersApi';
+import { ApiType } from '../../types';
 
-export const useUsers = ({ page, limit }: FetchUsersProps) => {
+export const useUsers = ({ page, limit }: ApiType.FetchUsersProps) => {
   return useQuery({
     queryKey: ['users', page, limit],
     queryFn: () => usersApi.fetchUsers({ page, limit }),

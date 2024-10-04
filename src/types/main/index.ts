@@ -19,6 +19,7 @@ export interface PaginationProps {
 
 export interface TableHeadProps {
   headNames: string[];
+  active?: number;
 }
 
 export interface TableContainerProps {

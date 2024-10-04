@@ -1,5 +1,5 @@
 import React from 'react';
-import Styled from '../styles/sidemenu';
+import { Styled } from '../styles/sidemenu';
 import anydanaplus from '../assets/anydanaplus.svg';
 import { Link } from 'react-router-dom';
 

@@ -1,15 +1,9 @@
-import axios from 'axios';
-
-export const baseUrl = 'http://localhost:3001';
-
-export interface FetchUsersProps {
-  page: number | string;
-  limit: number;
-}
+import { ApiType } from '../../types';
+import { axiosInstance } from './axios';
 
 // TODO: API 나오면 여기 코드 수정해야함
-const fetchUsers = async ({ page, limit }: FetchUsersProps) => {
-  const response = await axios(`${baseUrl}/users?_page=${page}&limit=${limit}`);
+const fetchUsers = async ({ page, limit }: ApiType.FetchUsersProps) => {
+  const response = await axiosInstance(`/users?_page=${page}&limit=${limit}`);
 
   return {
     data: response.data,

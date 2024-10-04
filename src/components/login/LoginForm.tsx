@@ -1,22 +1,27 @@
 import React, { KeyboardEvent, RefObject, useEffect, useRef } from 'react';
-import Styled from '../../styles/login';
+import { Styled } from '../../styles/login';
 import { useForm, SubmitHandler } from 'react-hook-form';
-import { login } from '../../types';
+import { LoginType } from '../../types';
+import { useLogin } from '../../service/hooks/useLogin';
+import { baseUrl } from '../../service/api';
 
 const LoginForm = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<login.LoginFormProps>({
+  } = useForm<LoginType.LoginFormProps>({
     mode: 'onSubmit',
   });
 
   const idRef = useRef<HTMLInputElement | null>(null);
   const passwordRef = useRef<HTMLInputElement | null>(null);
 
-  const onSubmit: SubmitHandler<login.LoginFormProps> = (data) => {
+  const { mutate } = useLogin();
+
+  const onSubmit: SubmitHandler<LoginType.LoginFormProps> = (data) => {
     console.log('Data:', data);
+    mutate(data);
   };
 
   const handleKeydown = (
@@ -53,6 +58,7 @@ const LoginForm = () => {
         <Styled.Label htmlFor="password">비밀번호</Styled.Label>
         <Styled.Input
           id="password"
+          type="password"
           {...register('password')}
           ref={(e: HTMLInputElement | null) => {
             register('password').ref(e);

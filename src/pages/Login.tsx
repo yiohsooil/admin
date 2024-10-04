@@ -1,5 +1,5 @@
 import React from 'react';
-import Styled from '../styles/login';
+import { Styled } from '../styles/login';
 import LoginTitle from '../components/login/LoginTitle';
 import LoginForm from '../components/login/LoginForm';
 

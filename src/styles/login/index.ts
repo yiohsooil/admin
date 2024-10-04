@@ -1,3 +1,1 @@
-import * as Styled from './style';
-
-export default Styled;
+export * as Styled from './style';

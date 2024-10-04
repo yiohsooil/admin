@@ -1,5 +1,5 @@
 import React, { ChangeEvent, useState } from 'react';
-import Styled from '../styles/main';
+import { Styled } from '../styles/main';
 import { useUsers } from '../service/hooks/useUsers';
 import { useSearchParams } from 'react-router-dom';
 import { SelectChangeEvent } from '@mui/material';

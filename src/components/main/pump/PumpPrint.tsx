@@ -1,15 +1,14 @@
 import React, { forwardRef } from 'react';
-import { RowsProps } from '../../../pages/Main';
-import Styled from '../../../styles/main/pump';
+import { Styled } from '../../../styles/main/pump';
 import TableContainer from '../TableContainer';
 import TableHead from '../TableHead';
 import {
   alarmHistoryHeaderNames,
   historyHeaderNames,
 } from '../../../constants/tableHeaders';
-import { pump } from '../../../types';
+import { PumpType } from '../../../types';
 
-const PumpPrint = forwardRef<HTMLDivElement, pump.PumpPrintProps>(
+const PumpPrint = forwardRef<HTMLDivElement, PumpType.PumpPrintProps>(
   (props, ref) => {
     const { row } = props;
     return (

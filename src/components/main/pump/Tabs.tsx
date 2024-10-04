@@ -1,8 +1,8 @@
 import * as React from 'react';
-import Styled from '../../../styles/tabs';
-import { pump } from '../../../types';
+import { Styled } from '../../../styles/tabs';
+import { PumpType } from '../../../types';
 
-function CustomTabPanel(props: pump.TabPanelProps) {
+function CustomTabPanel(props: PumpType.TabPanelProps) {
   const { children, value, index, ...other } = props;
 
   return (
@@ -27,7 +27,7 @@ function a11yProps(index: number) {
   };
 }
 
-const Tabs = ({ tabOne, tabTwo, tabThree, tabFour }: pump.TabsProps) => {
+const Tabs = ({ tabOne, tabTwo, tabThree, tabFour }: PumpType.TabsProps) => {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {

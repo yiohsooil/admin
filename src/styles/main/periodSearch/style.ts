@@ -4,21 +4,46 @@ import { ButtonGroup } from '@mui/material';
 
 export const Container = styled.div`
   width: 100%;
-  height: 80px;
-  border: 1px solid red;
+  height: auto;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 0 20px;
 `;
 
-export const InnerContainer = styled.div``;
+export const SearchWrapper = styled.div`
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+`;
 
-export const Label = styled.label``;
-export const Input = styled.input``;
+export const Label = styled.label`
+  font-size: 0.8rem;
+  width: 120px;
+  height: auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+`;
+export const Input = styled.input`
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+`;
 export const Span = styled.span`
-  padding: 0 5px;
+  padding: 0 10px;
+  font-size: 0.8rem;
 `;
 
 export const CustomButtonGroup = styled(ButtonGroup)`
-  margin-left: 20px;
+  margin: 0 30px;
+  box-sizing: border-box;
+  display: flex;
+`;
+export const CustomButton = styled(Button)`
   box-sizing: border-box;
 `;
-export const CustomButton = styled(Button)``;
+export const SearchButtonWrapper = styled.div``;

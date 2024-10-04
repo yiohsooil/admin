@@ -1,12 +1,9 @@
 import { QueryClientProvider } from '@tanstack/react-query';
 import { queryClient } from './queryClient';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { ServiceType } from '../types';
 
-interface QueryProviderProps {
-  children: React.ReactNode;
-}
-
-export const QueryProvider: React.FC<QueryProviderProps> = ({ children }) => {
+export const QueryProvider = ({ children }: ServiceType.QueryProviderProps) => {
   return (
     <QueryClientProvider client={queryClient}>
       {children}

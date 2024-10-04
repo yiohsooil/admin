@@ -1,12 +1,12 @@
 import React from 'react';
-import Styled from '../../styles/main/table';
+import { Styled } from '../../styles/main/table';
 import Size from './Size';
 import TableHead from './TableHead';
 import TableBody from './TableBody';
 import Pagination from './Pagination';
 import { mainTableHeaderNames } from '../../constants/tableHeaders';
 import TableContainer from './TableContainer';
-import { main } from '../../types';
+import { MainType } from '../../types';
 
 const Table = ({
   rows,
@@ -15,7 +15,7 @@ const Table = ({
   limit,
   handlePageChange,
   handleChangeLimit,
-}: main.TableProps) => {
+}: MainType.TableProps) => {
   return (
     <Styled.InnerContainer>
       <Styled.MainContainer>

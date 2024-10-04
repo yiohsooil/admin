@@ -2,7 +2,8 @@ import styled from '@emotion/styled';
 import { Box } from '@mui/material';
 
 export const Container = styled.div`
-  width: 1200px;
+  width: 80vw;
+  min-width: 850px;
 `;
 
 export const PumpListContainer = styled.div`

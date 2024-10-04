@@ -1,10 +1,8 @@
 import dayjs from 'dayjs';
 import { ChangeEvent } from 'react';
-import { main } from '../..';
+import { MainType } from '../..';
 
-export interface PeriodSearchProps {
-  children: React.ReactNode;
-}
+export interface PeriodSearchProps {}
 
 export interface DateRangeProps {
   fromDate: dayjs.Dayjs;
@@ -12,8 +10,8 @@ export interface DateRangeProps {
 }
 
 export interface fromToDateProps {
-  fromDate: dayjs.Dayjs | null;
-  toDate: dayjs.Dayjs | null;
+  fromDate: dayjs.Dayjs;
+  toDate: dayjs.Dayjs;
 }
 
 export interface HandleFromToDateProps {
@@ -31,11 +29,11 @@ export interface PumpProps {
     index: number,
     open: boolean
   ) => (event: React.KeyboardEvent | React.MouseEvent) => void;
-  row: main.RowsProps;
+  row: MainType.RowsProps;
 }
 
 export interface PumpPrintProps {
-  row: main.RowsProps;
+  row: MainType.RowsProps;
 }
 
 export interface TabPanelProps {

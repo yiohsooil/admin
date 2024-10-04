@@ -1,14 +1,14 @@
 import React from 'react';
-import Styled from '../../styles/main/table';
+import { Styled } from '../../styles/main/table';
 import { Pagination as PaginationMUI, Stack } from '@mui/material';
-import { main } from '../../types';
+import { MainType } from '../../types';
 
 const Pagination = ({
   rows,
   totalPage,
   page,
   handlePageChange,
-}: main.PaginationProps) => {
+}: MainType.PaginationProps) => {
   return (
     <Styled.PaginationWrapper>
       {rows ? (

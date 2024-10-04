@@ -3,7 +3,7 @@ import ReplacementCycle from './ReplacementCycle';
 import AirRemovalHistory from './AirRemovalHistory';
 import AlarmHistory from './AlarmHistory';
 
-export const TabObj = {
+export const TabComponents = {
   one: InjectionHistory,
   two: ReplacementCycle,
   three: AirRemovalHistory,
