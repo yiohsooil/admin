@@ -8,9 +8,11 @@ import Tabs from './Tabs';
 import { TabComponents } from './tab';
 import { PumpType } from '../../../types';
 import PeriodSearch from './PeriodSearch';
-import { usePumpHistory } from '../../../service/hooks/usePumpHistory';
 import dayjs from 'dayjs';
-import { useSearchParams } from 'react-router-dom';
+import { HandlePageChangeProps } from '../../../types/main/pump/tab';
+import UserInfo from './UserInfo';
+import PrintButton from './PrintButton';
+import PumpPrintModal from './PumpPrintModal';
 
 const Pump = ({
   index,
@@ -21,8 +23,12 @@ const Pump = ({
 }: PumpType.PumpProps) => {
   const handleToggleDrawer = toggleDrawer(index, false);
   const componentRef = useRef<HTMLDivElement | null>(null);
-  const [searchParams, setSearchParams] = useSearchParams();
-  const [page, setPage] = useState(searchParams.get('page') || 1);
+  const [pages, setPages] = useState({
+    airRemovalHistoryPage: 1,
+    alarmHistoryPage: 1,
+    injectionHistoryPage: 1,
+    replacementCyclePage: 1,
+  });
   const [limit, setLimit] = useState(10);
   const [fromToDate, setFromToDate] = React.useState<PumpType.fromToDateProps>({
     fromDate: dayjs().subtract(1, 'month').startOf('day'),
@@ -83,6 +89,13 @@ const Pump = ({
     content: () => componentRef.current,
   });
 
+  const handlePageChange = ({ page, type }: HandlePageChangeProps) => {
+    setPages((prev) => ({
+      ...prev,
+      [type]: page,
+    }));
+  };
+
   return (
     <Drawer
       anchor={'right'}
@@ -90,6 +103,11 @@ const Pump = ({
       onClose={handleToggleDrawer}
     >
       <Styled.Container>
+        <UserInfo
+          name={row.name}
+          pumpSerial={row.pumpSerial}
+          birthDate={row.birthDate}
+        />
         <PeriodSearch
           fromToDate={fromToDate}
           handleFromToDate={handleFromToDate}
@@ -101,8 +119,9 @@ const Pump = ({
               index={index}
               startDate={fromToDate.fromDate}
               endDate={fromToDate.toDate}
-              page={page}
+              page={pages.injectionHistoryPage}
               limit={limit}
+              handlePageChange={handlePageChange}
             />
           }
           tabTwo={
@@ -110,8 +129,9 @@ const Pump = ({
               index={index}
               startDate={fromToDate.fromDate}
               endDate={fromToDate.toDate}
-              page={page}
+              page={pages.replacementCyclePage}
               limit={limit}
+              handlePageChange={handlePageChange}
             />
           }
           tabThree={
@@ -119,8 +139,9 @@ const Pump = ({
               index={index}
               startDate={fromToDate.fromDate}
               endDate={fromToDate.toDate}
-              page={page}
+              page={pages.airRemovalHistoryPage}
               limit={limit}
+              handlePageChange={handlePageChange}
             />
           }
           tabFour={
@@ -128,15 +149,25 @@ const Pump = ({
               index={index}
               startDate={fromToDate.fromDate}
               endDate={fromToDate.toDate}
-              page={page}
+              page={pages.alarmHistoryPage}
               limit={limit}
+              handlePageChange={handlePageChange}
             />
           }
         />
-        {/* <Styled.PrintButton onClick={handlePrint}>
-          프린트 하기
-        </Styled.PrintButton> */}
-        {/* <PumpPrint ref={componentRef} row={row} /> */}
+        <PumpPrintModal
+          startDate={fromToDate.fromDate}
+          endDate={fromToDate.toDate}
+          ref={componentRef}
+          handlePrint={handlePrint}
+          children={
+            <UserInfo
+              name={row.name}
+              pumpSerial={row.pumpSerial}
+              birthDate={row.birthDate}
+            />
+          }
+        />
       </Styled.Container>
     </Drawer>
   );

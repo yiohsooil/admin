@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import { Styled } from '../../../styles/tabs';
 import { PumpType } from '../../../types';
 
@@ -28,7 +28,7 @@ function a11yProps(index: number) {
 }
 
 const Tabs = ({ tabOne, tabTwo, tabThree, tabFour }: PumpType.TabsProps) => {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);

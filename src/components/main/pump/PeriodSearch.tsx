@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Styled } from '../../../styles/main/periodSearch';
 import { isValidDateRange } from '../../../utils/isValidDateRange';
 import { dateRangeUtils } from '../../../utils/dateRangeUtils';

@@ -6,14 +6,14 @@ const pumpHistoryApiUrl = ({
   endDate,
   page,
   limit,
-  apiName,
+  type,
 }: ApiType.fetchPumpHistory) =>
-  `/${apiName}?startDate=${startDate}&endDate=${endDate}&_page=${page}&limit=${limit}`;
+  `/${type}?startDate=${startDate}&endDate=${endDate}&_page=${page}&limit=${limit}`;
 
 // TODO: API 나오면 여기 코드 수정해야함
 const fetchAirRemovalHistory = async (props: ApiType.fetchPumpHistory) => {
   const response = await axiosInstance(
-    pumpHistoryApiUrl({ ...props, apiName: 'airRemovalHistory' })
+    pumpHistoryApiUrl({ ...props, type: 'airRemovalHistory' })
   );
 
   return response.data;
@@ -23,7 +23,7 @@ const fetchAlarmHistory = async (props: ApiType.fetchPumpHistory) => {
   const response = await axiosInstance(
     pumpHistoryApiUrl({
       ...props,
-      apiName: 'alarmHistory',
+      type: 'alarmHistory',
     })
   );
 
@@ -34,7 +34,7 @@ const fetchInjectionHistory = async (props: ApiType.fetchPumpHistory) => {
   const response = await axiosInstance(
     pumpHistoryApiUrl({
       ...props,
-      apiName: 'injectionHistory',
+      type: 'injectionHistory',
     })
   );
 
@@ -45,7 +45,7 @@ const fetchReplacementCycle = async (props: ApiType.fetchPumpHistory) => {
   const response = await axiosInstance(
     pumpHistoryApiUrl({
       ...props,
-      apiName: 'replacementCycle',
+      type: 'replacementCycle',
     })
   );
 

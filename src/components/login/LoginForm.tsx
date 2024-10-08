@@ -3,7 +3,6 @@ import { Styled } from '../../styles/login';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { LoginType } from '../../types';
 import { useLogin } from '../../service/hooks/useLogin';
-import { baseUrl } from '../../service/api';
 
 const LoginForm = () => {
   const {

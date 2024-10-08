@@ -10,7 +10,6 @@ import { PumpType } from '../../../types';
 
 const PumpPrint = forwardRef<HTMLDivElement, PumpType.PumpPrintProps>(
   (props, ref) => {
-    const { row } = props;
     return (
       <Styled.PumpPrintContainer>
         <Styled.PumpListContainer ref={ref}>

@@ -1,11 +1,14 @@
 import React from 'react';
-import PeriodSearch from '../PeriodSearch';
 import { TabType } from '../../../../types';
 import { Styled } from '../../../../styles/tab';
 import TableContainer from '../../TableContainer';
-import TableHead from '../../TableHead';
 import { historyHeaderNames } from '../../../../constants/tableHeaders';
 import { usePumpHistory } from '../../../../service/hooks/usePumpHistory';
+import PumpTableHead from '../PumpTableHead';
+import PumpTableBody from '../PumpTableBody';
+import PumpPagination from '../PumpPagination';
+import dayjs from 'dayjs';
+import { handleChecked } from '../../../../utils/isChecked';
 
 const ReplacementCycle = ({
   index,
@@ -13,6 +16,7 @@ const ReplacementCycle = ({
   endDate,
   page,
   limit,
+  handlePageChange,
 }: TabType.TabProps) => {
   const { data, isLoading, isError } = usePumpHistory.useReplacementCycle({
     startDate,
@@ -21,15 +25,30 @@ const ReplacementCycle = ({
     limit,
   });
 
-  console.log('ReplacementCycle data', data);
+  if (isLoading) {
+    return <div></div>;
+  }
+
   return (
     <Styled.Container>
       <Styled.PumpHistoryWrapper>
         <Styled.PumpHistoryTitle>교체이력</Styled.PumpHistoryTitle>
         <TableContainer>
-          <TableHead headNames={historyHeaderNames} active={1} />
+          <PumpTableHead headNames={historyHeaderNames} />
+          <PumpTableBody
+            data={data?.data}
+            handleChecked={handleChecked}
+            type="ReplacementCycle"
+          />
         </TableContainer>
       </Styled.PumpHistoryWrapper>
+      <PumpPagination
+        data={data?.data}
+        count={Math.ceil(data?.items / limit)}
+        page={page as number}
+        handlePageChange={handlePageChange}
+        type="replacementCyclePage"
+      />
     </Styled.Container>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Styled } from '../../styles/main/table';
 import { FormGroup, Stack, Typography } from '@mui/material';
-import Pump from './pump/Pump';
+import PumpHistory from './pump/PumpHistory';
 import { MainType } from '../../types';
 
 const TableBody = ({ rows }: MainType.TableBodyProps) => {
@@ -43,7 +43,7 @@ const TableBody = ({ rows }: MainType.TableBodyProps) => {
             >
               {row.name}
             </Styled.CustomTableCell>
-            <Pump
+            <PumpHistory
               index={index}
               selectedIndex={selectedIndex}
               state={state}

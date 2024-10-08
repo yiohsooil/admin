@@ -10,8 +10,13 @@ export interface FetchUsersProps {
   limit: number;
 }
 
-export interface fetchPumpHistory extends FetchUsersProps {
+export interface fetchPumpHistoryPrint {
   startDate: dayjs.Dayjs;
   endDate: dayjs.Dayjs;
-  apiName?: string;
+  type?: string;
+  enabled?: boolean;
 }
+
+export interface fetchPumpHistory
+  extends FetchUsersProps,
+    fetchPumpHistoryPrint {}

@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 import { ChangeEvent } from 'react';
 import { MainType } from '../..';
 
-export interface PeriodSearchProps {}
+// export interface PeriodSearchProps {}
 
 export interface DateRangeProps {
   fromDate: dayjs.Dayjs;
