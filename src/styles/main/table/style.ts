@@ -54,6 +54,7 @@ export const TableWrapper = styled.div`
 
 export const CustomTableContainer = styled(TableContainer)<TableContainerProps>`
   overflow-x: hidden;
+  border-radius: 0px !important;
 `;
 export const CustomTable = styled(Table)``;
 export const CustomTableBody = styled(TableBody)``;
@@ -61,6 +62,7 @@ export const CustomTableCell = styled(TableCell)<{ active?: number }>`
   cursor: ${({ active }) => (active === 1 ? 'pointer' : 'default')};
   color: ${({ active }) => (active === 1 ? '#1890ff' : '#000')};
   transition: all 0.2s ease-out;
+  font-size: 16px;
 `;
 export const CustomTableHead = styled(TableHead)<{ active?: number }>`
   & th {

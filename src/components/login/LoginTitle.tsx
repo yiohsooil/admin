@@ -6,9 +6,11 @@ import plus from '../../assets/plus.svg';
 const LoginTitle = () => {
   return (
     <Styled.Tilte>
-      <Styled.Img src={anydana} alt="Anydana" height={30} />
-      <Styled.Img src={plus} alt="Plus" height={20} />
-      관리자 로그인
+      <Styled.ImgWrapper>
+        <Styled.Img src={anydana} alt="Anydana" height={30} />
+        <Styled.Img src={plus} alt="Plus" height={20} />
+      </Styled.ImgWrapper>
+      <Styled.TextWrapper>관리자 로그인</Styled.TextWrapper>
     </Styled.Tilte>
   );
 };

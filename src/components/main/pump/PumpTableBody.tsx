@@ -7,9 +7,19 @@ interface PumpTableBodyProps {
   data: PumpDataProps[];
   handleChecked?: ({ prevData, data }: CheckedProps) => boolean;
   type?: 'ReplacementCycle' | 'AirRemovalHistory';
+  isPrint?: boolean;
+  isPrintText?: string;
+  children?: React.ReactNode;
 }
 
-const PumpTableBody = ({ data, handleChecked, type }: PumpTableBodyProps) => {
+const PumpTableBody = ({
+  data,
+  handleChecked,
+  type,
+  isPrint = false,
+  isPrintText,
+  children,
+}: PumpTableBodyProps) => {
   return (
     <Styled.CustomTableBody>
       {data ? (
@@ -69,6 +79,20 @@ const PumpTableBody = ({ data, handleChecked, type }: PumpTableBodyProps) => {
           </Styled.CustomTableCell>
         </Styled.CustomTableRow>
       )}
+      {data?.length > 0 && isPrint ? (
+        <Styled.CustomTableRow>
+          <Styled.CustomTableCell align="center" style={{ fontWeight: 'bold' }}>
+            평가
+          </Styled.CustomTableCell>
+          <Styled.CustomTableCell
+            align="center"
+            colSpan={2}
+            style={{ fontWeight: 'bold' }}
+          >
+            {isPrintText}
+          </Styled.CustomTableCell>
+        </Styled.CustomTableRow>
+      ) : null}
     </Styled.CustomTableBody>
   );
 };

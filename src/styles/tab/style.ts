@@ -11,7 +11,7 @@ export const PumpHistoryWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 50px 0 50px;
+  padding: 10px 80px 0px 80px;
 `;
 
 export const PumpHistoryTitle = styled.h2`
@@ -33,11 +33,14 @@ export const CustomTableHead = styled(TableHead)`
 
 export const CustomTableBody = styled(TableBody)``;
 export const CustomTableCell = styled(TableCell)`
+  width: auto;
+  min-width: 150px;
   border-right: 1px solid #ccc;
   &:last-child {
     border-right: none;
   }
   padding: 10px;
+  font-size: 16px;
 `;
 export const CustomTableRow = styled(TableRow)<{
   checked?: boolean;
@@ -61,5 +64,5 @@ export const CustomTableRow = styled(TableRow)<{
 export const PaginationWrapper = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin: 20px 0;
 `;

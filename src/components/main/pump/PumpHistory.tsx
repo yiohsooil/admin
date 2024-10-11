@@ -3,7 +3,6 @@ import { Drawer } from '@mui/material';
 import { useReactToPrint } from 'react-to-print';
 import { useRef } from 'react';
 import { Styled } from '../../../styles/main/pump';
-import PumpPrint from './PumpPrint';
 import Tabs from './Tabs';
 import { TabComponents } from './tab';
 import { PumpType } from '../../../types';
@@ -11,7 +10,6 @@ import PeriodSearch from './PeriodSearch';
 import dayjs from 'dayjs';
 import { HandlePageChangeProps } from '../../../types/main/pump/tab';
 import UserInfo from './UserInfo';
-import PrintButton from './PrintButton';
 import PumpPrintModal from './PumpPrintModal';
 
 const Pump = ({
@@ -87,6 +85,28 @@ const Pump = ({
 
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
+    pageStyle: `
+      @page {
+        size: auto;
+        margin: 25mm;
+      }
+      body {
+        -webkit-print-color-adjust: exact;
+        margin: 20mm;
+      }
+      header, footer {
+        display: none !important;
+      }
+      table, th, td {
+        border: 1px solid #ccc !important;
+        border-collapse: collapse !important;
+      }
+      @media print {
+        .print-button {
+          display: none !important;
+        }
+      }
+    `,
   });
 
   const handlePageChange = ({ page, type }: HandlePageChangeProps) => {

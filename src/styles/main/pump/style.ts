@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { Box, Modal } from '@mui/material';
+import { Box, Button, Modal, Typography } from '@mui/material';
 
 export const Container = styled.div`
   width: 80vw;
@@ -11,20 +11,35 @@ export const PumpListContainer = styled.div`
 `;
 
 export const PumpPrintContainer = styled.div`
-  width: 100%;
+  width: 790px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   box-sizing: border-box;
 `;
+
+export const CustomTypographyWrapper = styled.div`
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+`;
+export const CustomTypography = styled(Typography)``;
 
 export const PumpWrapper = styled(Box)`
   width: 100%;
   box-sizing: border-box;
-  padding: 20px 0;
+  margin: 20px 0;
 `;
 
-export const PrintButton = styled.button``;
+export const PrintButton = styled(Button)`
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+`;
 
 export const PumpTitle = styled.h1`
   font-size: 24px;
@@ -35,7 +50,6 @@ export const PumpTitle = styled.h1`
 export const PumpHistoryTitle = styled.h2`
   font-size: 18px;
   font-weight: bold;
-  // margin-top: 20px;
   background-color: #eee;
   width: 100%;
   padding: 15px 0;
@@ -46,10 +60,11 @@ export const PumpHistoryTitle = styled.h2`
 
 export const UserInfoContainer = styled.div`
   border: 1px solid #ccc;
-  height: 30px;
+  height: 40px;
   display: flex;
   box-sizing: border-box;
   margin-bottom: 5px;
+  width: 100%;
 `;
 
 export const TextWrapper = styled.div`
@@ -78,9 +93,9 @@ export const ValueText = styled.span`
 `;
 
 export const PrintWrapper = styled(Box)`
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
 `;
 
 export const ModalContainer = styled(Modal)``;
@@ -89,11 +104,57 @@ export const ModalBox = styled(Box)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70vw;
+  width: 850px;
   min-width: 800px;
   height: 90vh;
   overflow-y: auto;
   background-color: #fff;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1); /* 적절한 box-shadow 값으로 변경 */
-  padding: 12px 20px;
+  padding: 12px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+`;
+
+export const EvaluationWrapper = styled.div`
+  width: 99%;
+  height: auto;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+`;
+export const EvaluationLabel = styled.div`
+  width: 162px;
+  height: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px;
+  background-color: #fff;
+`;
+
+export const EvaluationTextArea = styled.textarea`
+  flex: 1;
+  height: auto;
+  min-height: 50px;
+  line-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  text-align: start;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 16px;
+  resize: none;
+  overflow: hidden;
+  padding: 20px;
+  border-left: 1px solid #ccc;
 `;

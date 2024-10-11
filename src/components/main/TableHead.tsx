@@ -7,7 +7,11 @@ const TableHead = ({ headNames, active = 0 }: MainType.TableHeadProps) => {
     <Styled.CustomTableHead active={active}>
       <Styled.CustomTableRow>
         {headNames.map((name) => (
-          <Styled.CustomTableCell align="center" key={name}>
+          <Styled.CustomTableCell
+            align="center"
+            key={name}
+            style={{ fontWeight: 'bold' }}
+          >
             {name}
           </Styled.CustomTableCell>
         ))}
