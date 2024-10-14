@@ -4,6 +4,7 @@ import { isValidDateRange } from '../../../utils/isValidDateRange';
 import { dateRangeUtils } from '../../../utils/dateRangeUtils';
 import dayjs from 'dayjs';
 import { PumpType } from '../../../types';
+import { Constants } from '../../../constants/search';
 
 interface PeriodSearchProps {
   fromToDate: PumpType.fromToDateProps;
@@ -23,7 +24,7 @@ const PeriodSearch = ({
 }: PeriodSearchProps) => {
   return (
     <Styled.Container>
-      <Styled.Label>기간 검색</Styled.Label>
+      <Styled.Label>{Constants.PERIOD.TITLE}</Styled.Label>
       <Styled.SearchWrapper>
         <Styled.CustomButtonGroup
           variant="contained"
@@ -33,31 +34,31 @@ const PeriodSearch = ({
             size="small"
             onClick={() => handleDateRange(dateRangeUtils.getTodayRange)}
           >
-            오늘
+            {Constants.PERIOD.TODAY}
           </Styled.CustomButton>
           <Styled.CustomButton
             size="small"
             onClick={() => handleDateRange(dateRangeUtils.getLastWeekRange)}
           >
-            1주
+            {Constants.PERIOD.WEEK}
           </Styled.CustomButton>
           <Styled.CustomButton
             size="small"
             onClick={() => handleDateRange(dateRangeUtils.getLast15DaysRange)}
           >
-            15일
+            {Constants.PERIOD['15DAYS']}
           </Styled.CustomButton>
           <Styled.CustomButton
             size="small"
             onClick={() => handleDateRange(dateRangeUtils.getLastMonthRange)}
           >
-            1개월
+            {Constants.PERIOD.MONTH}
           </Styled.CustomButton>
           <Styled.CustomButton
             size="small"
             onClick={() => handleDateRange(dateRangeUtils.getLast3MonthsRange)}
           >
-            3개월
+            {Constants.PERIOD['3MONTHS']}
           </Styled.CustomButton>
         </Styled.CustomButtonGroup>
         <Styled.Input
@@ -96,7 +97,7 @@ const PeriodSearch = ({
       </Styled.SearchWrapper>
       <Styled.SearchButtonWrapper>
         <Styled.CustomButton size="medium" variant="contained">
-          검색
+          {Constants.PERIOD.SEARCH}
         </Styled.CustomButton>
       </Styled.SearchButtonWrapper>
     </Styled.Container>

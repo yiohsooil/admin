@@ -19,8 +19,6 @@ const useAlarmHistoryPrint = (props: ApiType.fetchPumpHistoryPrint) => {
 };
 
 const useInjectionHistoryPrint = (props: ApiType.fetchPumpHistoryPrint) => {
-  console.log('enabled', props.enabled);
-
   return useQuery({
     queryKey: ['injectionHistory'],
     queryFn: () => pumpHistoryPrintApi.fetchInjectionHistoryPrint(props),

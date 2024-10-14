@@ -2,13 +2,12 @@ import React from 'react';
 import { TabType } from '../../../../types';
 import { Styled } from '../../../../styles/tab';
 import TableContainer from '../../TableContainer';
-import { historyHeaderNames } from '../../../../constants/tableHeaders';
 import { usePumpHistory } from '../../../../service/hooks/usePumpHistory';
 import PumpTableHead from '../PumpTableHead';
 import PumpTableBody from '../PumpTableBody';
 import PumpPagination from '../PumpPagination';
-import dayjs from 'dayjs';
 import { handleChecked } from '../../../../utils/isChecked';
+import { Constants } from '../../../../constants/table';
 
 const ReplacementCycle = ({
   index,
@@ -32,9 +31,11 @@ const ReplacementCycle = ({
   return (
     <Styled.Container>
       <Styled.PumpHistoryWrapper>
-        <Styled.PumpHistoryTitle>교체이력</Styled.PumpHistoryTitle>
+        <Styled.PumpHistoryTitle>
+          {Constants.TabNames.REPLACEMENT}
+        </Styled.PumpHistoryTitle>
         <TableContainer>
-          <PumpTableHead headNames={historyHeaderNames} />
+          <PumpTableHead headNames={Constants.historyHeaderNames} />
           <PumpTableBody
             data={data?.data}
             handleChecked={handleChecked}

@@ -6,7 +6,6 @@ interface EvaluationProps {
   value: string;
   readonly?: boolean;
   handleEvaluationChange?: (e: ChangeEvent<HTMLTextAreaElement>) => void;
-  fixedHeight?: boolean;
 }
 
 const Evaluation = ({
@@ -14,13 +13,10 @@ const Evaluation = ({
   value,
   readonly = false,
   handleEvaluationChange,
-  fixedHeight = true,
 }: EvaluationProps) => {
   return (
-    <Styled.EvaluationWrapper fixedHeight={fixedHeight}>
-      <Styled.EvaluationLabel fixedHeight={fixedHeight}>
-        {label}
-      </Styled.EvaluationLabel>
+    <Styled.EvaluationWrapper>
+      <Styled.EvaluationLabel>{label}</Styled.EvaluationLabel>
       <Styled.EvaluationTextArea
         value={value}
         readOnly={readonly}
@@ -30,7 +26,6 @@ const Evaluation = ({
           target.style.height = 'auto';
           target.style.height = `${target.scrollHeight}px`;
         }}
-        fixedHeight={fixedHeight}
       ></Styled.EvaluationTextArea>
     </Styled.EvaluationWrapper>
   );

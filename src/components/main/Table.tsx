@@ -4,9 +4,9 @@ import Size from './Size';
 import TableHead from './TableHead';
 import TableBody from './TableBody';
 import Pagination from './Pagination';
-import { mainTableHeaderNames } from '../../constants/tableHeaders';
 import TableContainer from './TableContainer';
 import { MainType } from '../../types';
+import { Constants } from '../../constants/table';
 
 const Table = ({
   rows,
@@ -20,12 +20,12 @@ const Table = ({
     <Styled.InnerContainer>
       <Styled.MainContainer>
         <Styled.MenuWrapper>
-          <Styled.MenuTitle>고객관리</Styled.MenuTitle>
+          <Styled.MenuTitle>{Constants.TABLE.CUSTOMER}</Styled.MenuTitle>
           <Size limit={limit} handleChangeLimit={handleChangeLimit} />
         </Styled.MenuWrapper>
         <Styled.TableWrapper>
           <TableContainer>
-            <TableHead headNames={mainTableHeaderNames} />
+            <TableHead headNames={Constants.mainTableHeaderNames} />
             <TableBody rows={rows} />
           </TableContainer>
         </Styled.TableWrapper>

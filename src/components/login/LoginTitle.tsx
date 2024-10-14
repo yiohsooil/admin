@@ -2,6 +2,7 @@ import React from 'react';
 import { Styled } from '../../styles/login';
 import anydana from '../../assets/anydana.svg';
 import plus from '../../assets/plus.svg';
+import { Constants } from '../../constants/login';
 
 const LoginTitle = () => {
   return (
@@ -10,7 +11,7 @@ const LoginTitle = () => {
         <Styled.Img src={anydana} alt="Anydana" height={30} />
         <Styled.Img src={plus} alt="Plus" height={20} />
       </Styled.ImgWrapper>
-      <Styled.TextWrapper>관리자 로그인</Styled.TextWrapper>
+      <Styled.TextWrapper>{Constants.Login.PASSWORD}</Styled.TextWrapper>
     </Styled.Tilte>
   );
 };

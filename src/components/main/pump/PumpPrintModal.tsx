@@ -1,19 +1,15 @@
-import React, { ChangeEvent, forwardRef, useEffect, useState } from 'react';
-import Typography from '@mui/material/Typography';
+import React, { ChangeEvent, forwardRef, useState } from 'react';
 import PrintButton from './PrintButton';
 import dayjs from 'dayjs';
 import { Styled } from '../../../styles/main/pump';
 import { usePumpHistoryPrint } from '../../../service/hooks/usePumpHistoryPrint';
 import TableContainer from '../TableContainer';
-import {
-  alarmHistoryHeaderNames,
-  historyHeaderNames,
-} from '../../../constants/tableHeaders';
 import PumpTableHead from './PumpTableHead';
 import PumpTableBody from './PumpTableBody';
 import { PumpDataProps } from './tab/AirRemovalHistory';
 import { handleChecked } from '../../../utils/isChecked';
 import Evaluation from './Evaluation';
+import { Constants } from '../../../constants/table';
 
 interface PumpPrintModalProps {
   startDate: dayjs.Dayjs;
@@ -71,12 +67,6 @@ const PumpPrintModal = forwardRef<HTMLDivElement, PumpPrintModalProps>(
       setEvaluationValue(e.target.value);
     };
 
-    // useEffect(() => {
-    //   return () => {
-    //     setEvaluationValue('');
-    //   };
-    // }, []);
-
     return (
       <div>
         <PrintButton onClick={handleOpen} />
@@ -95,38 +85,41 @@ const PumpPrintModal = forwardRef<HTMLDivElement, PumpPrintModalProps>(
                   align="center"
                   p={2}
                 >
-                  펌프 사용 내역
+                  {Constants.PRINT.TITLE}
                 </Styled.CustomTypography>
                 <Styled.PrintButton
                   onClick={handlePrint}
                   variant="contained"
                   className="print-button"
                 >
-                  프린트
+                  {Constants.PRINT.PRINT}
                 </Styled.PrintButton>
               </Styled.CustomTypographyWrapper>
               {children}
               <Evaluation
-                label="확인자 의견"
+                label={`${Constants.PRINT.CONFIRMER_COMMENTS}`}
                 value={evaluationValue}
                 handleEvaluationChange={handleEvaluationChange}
-                fixedHeight={false}
               />
               <Styled.PumpListContainer>
                 <Styled.PumpWrapper>
-                  <Styled.PumpHistoryTitle>주입이력</Styled.PumpHistoryTitle>
+                  <Styled.PumpHistoryTitle>
+                    {Constants.TabNames.INJECTION}
+                  </Styled.PumpHistoryTitle>
                   <TableContainer>
-                    <PumpTableHead headNames={historyHeaderNames} />
+                    <PumpTableHead headNames={Constants.historyHeaderNames} />
                     <PumpTableBody data={injectionHistoryPrintData} />
                   </TableContainer>
                 </Styled.PumpWrapper>
                 <Styled.PumpWrapper>
-                  <Styled.PumpHistoryTitle>교체이력</Styled.PumpHistoryTitle>
+                  <Styled.PumpHistoryTitle>
+                    {Constants.TabNames.REPLACEMENT}
+                  </Styled.PumpHistoryTitle>
                   <TableContainer>
-                    <PumpTableHead headNames={historyHeaderNames} />
+                    <PumpTableHead headNames={Constants.historyHeaderNames} />
                     <PumpTableBody
                       isPrint={true}
-                      isPrintText="주의요망 - [최대 5일 간격으로 교체]"
+                      isPrintText={`${Constants.PRINT.REPLACEMENT_WARNING}`}
                       data={replacementCyclePrintData?.filter(
                         (pumpData: PumpDataProps, index: number) =>
                           index !== 0 &&
@@ -139,12 +132,14 @@ const PumpPrintModal = forwardRef<HTMLDivElement, PumpPrintModalProps>(
                   </TableContainer>
                 </Styled.PumpWrapper>
                 <Styled.PumpWrapper>
-                  <Styled.PumpHistoryTitle>공기빼기</Styled.PumpHistoryTitle>
+                  <Styled.PumpHistoryTitle>
+                    {Constants.TabNames.AIRREMOVE}
+                  </Styled.PumpHistoryTitle>
                   <TableContainer>
-                    <PumpTableHead headNames={historyHeaderNames} />
+                    <PumpTableHead headNames={Constants.historyHeaderNames} />
                     <PumpTableBody
                       isPrint={true}
-                      isPrintText="주의요망"
+                      isPrintText={`${Constants.PRINT.AIRREMOVE_WARNING}`}
                       data={airRemovalHistoryPrintData?.filter(
                         (pumpData: PumpDataProps, index: number) =>
                           index !== 0 &&
@@ -156,9 +151,13 @@ const PumpPrintModal = forwardRef<HTMLDivElement, PumpPrintModalProps>(
                   </TableContainer>
                 </Styled.PumpWrapper>
                 <Styled.PumpWrapper>
-                  <Styled.PumpHistoryTitle>알람이력</Styled.PumpHistoryTitle>
+                  <Styled.PumpHistoryTitle>
+                    {Constants.TabNames.ALARM}
+                  </Styled.PumpHistoryTitle>
                   <TableContainer>
-                    <PumpTableHead headNames={alarmHistoryHeaderNames} />
+                    <PumpTableHead
+                      headNames={Constants.alarmHistoryHeaderNames}
+                    />
                     <PumpTableBody data={alarmHistoryPrintData} />
                   </TableContainer>
                 </Styled.PumpWrapper>

@@ -2,11 +2,11 @@ import React from 'react';
 import { TabType } from '../../../../types';
 import { Styled } from '../../../../styles/tab';
 import TableContainer from '../../TableContainer';
-import { alarmHistoryHeaderNames } from '../../../../constants/tableHeaders';
 import { usePumpHistory } from '../../../../service/hooks/usePumpHistory';
 import PumpTableHead from '../PumpTableHead';
 import PumpTableBody from '../PumpTableBody';
 import PumpPagination from '../PumpPagination';
+import { Constants } from '../../../../constants/table';
 
 const AlarmHistory = ({
   index,
@@ -23,14 +23,14 @@ const AlarmHistory = ({
     limit,
   });
 
-  console.log('AlarmHistory data', data);
-
   return (
     <Styled.Container>
       <Styled.PumpHistoryWrapper>
-        <Styled.PumpHistoryTitle>알림이력</Styled.PumpHistoryTitle>
+        <Styled.PumpHistoryTitle>
+          {Constants.TabNames.ALARM}
+        </Styled.PumpHistoryTitle>
         <TableContainer>
-          <PumpTableHead headNames={alarmHistoryHeaderNames} />
+          <PumpTableHead headNames={Constants.alarmHistoryHeaderNames} />
           <PumpTableBody data={data?.data} />
         </TableContainer>
       </Styled.PumpHistoryWrapper>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Styled } from '../../../styles/tab';
 import { PumpDataProps } from './tab/AirRemovalHistory';
 import { CheckedProps } from '../../../utils/isChecked';
+import { Constants } from '../../../constants/table';
 
 interface PumpTableBodyProps {
   data: PumpDataProps[];
@@ -45,12 +46,12 @@ const PumpTableBody = ({
               </Styled.CustomTableCell>
               <Styled.CustomTableCell align="center">
                 {pumpData.hour > 11
-                  ? `오후 ${pumpData.hour
+                  ? `${Constants.TABLE.PM} ${pumpData.hour
                       .toString()
                       .padStart(2, '0')}:${pumpData.min
                       .toString()
                       .padStart(2, '0')}`
-                  : `오전 ${pumpData.hour
+                  : `${Constants.TABLE.AM} ${pumpData.hour
                       .toString()
                       .padStart(2, '0')}:${pumpData.min
                       .toString()
@@ -75,14 +76,14 @@ const PumpTableBody = ({
             align="center"
             colSpan={6}
           >
-            데이터가 없습니다
+            {Constants.TABLE.NO_DATA}
           </Styled.CustomTableCell>
         </Styled.CustomTableRow>
       )}
       {data?.length > 0 && isPrint ? (
         <Styled.CustomTableRow>
           <Styled.CustomTableCell align="center" style={{ fontWeight: 'bold' }}>
-            평가
+            {Constants.PRINT.EVALUATION_LABEL}
           </Styled.CustomTableCell>
           <Styled.CustomTableCell
             align="center"

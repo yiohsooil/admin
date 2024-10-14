@@ -3,6 +3,7 @@ import { Styled } from '../../styles/login';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { LoginType } from '../../types';
 import { useLogin } from '../../service/hooks/useLogin';
+import { Constants } from '../../constants/login';
 
 const LoginForm = () => {
   const {
@@ -19,7 +20,6 @@ const LoginForm = () => {
   const { mutate } = useLogin();
 
   const onSubmit: SubmitHandler<LoginType.LoginFormProps> = (data) => {
-    console.log('Data:', data);
     mutate(data);
   };
 
@@ -54,7 +54,9 @@ const LoginForm = () => {
         />
       </Styled.InputContainer>
       <Styled.InputContainer>
-        <Styled.Label htmlFor="password">비밀번호</Styled.Label>
+        <Styled.Label htmlFor="password">
+          {Constants.Login.PASSWORD}
+        </Styled.Label>
         <Styled.Input
           id="password"
           type="password"
@@ -66,7 +68,7 @@ const LoginForm = () => {
         />
       </Styled.InputContainer>
       <Styled.InputContainer>
-        <Styled.Button type="submit" value="로그인" />
+        <Styled.Button type="submit" value={Constants.Login.ID} />
       </Styled.InputContainer>
     </Styled.Form>
   );

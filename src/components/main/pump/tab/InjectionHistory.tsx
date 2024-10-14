@@ -2,11 +2,11 @@ import React from 'react';
 import { TabType } from '../../../../types';
 import { Styled } from '../../../../styles/tab';
 import TableContainer from '../../TableContainer';
-import { historyHeaderNames } from '../../../../constants/tableHeaders';
 import { usePumpHistory } from '../../../../service/hooks/usePumpHistory';
 import PumpTableBody from '../PumpTableBody';
 import PumpPagination from '../PumpPagination';
 import PumpTableHead from '../PumpTableHead';
+import { Constants } from '../../../../constants/table';
 
 const InjectionHistory = ({
   index,
@@ -27,14 +27,14 @@ const InjectionHistory = ({
     return <div></div>;
   }
 
-  console.log('InjectionHistory data', data);
-
   return (
     <Styled.Container>
       <Styled.PumpHistoryWrapper>
-        <Styled.PumpHistoryTitle>주입이력</Styled.PumpHistoryTitle>
+        <Styled.PumpHistoryTitle>
+          {Constants.TabNames.INJECTION}
+        </Styled.PumpHistoryTitle>
         <TableContainer>
-          <PumpTableHead headNames={historyHeaderNames} />
+          <PumpTableHead headNames={Constants.historyHeaderNames} />
           <PumpTableBody data={data?.data} />
         </TableContainer>
       </Styled.PumpHistoryWrapper>

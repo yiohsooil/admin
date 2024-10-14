@@ -3,6 +3,7 @@ import { Styled } from '../../styles/main/table';
 import { FormGroup, Stack, Typography } from '@mui/material';
 import PumpHistory from './pump/PumpHistory';
 import { MainType } from '../../types';
+import { Constants } from '../../constants/table';
 
 const TableBody = ({ rows }: MainType.TableBodyProps) => {
   const [state, setState] = useState(false);
@@ -74,12 +75,12 @@ const TableBody = ({ rows }: MainType.TableBodyProps) => {
                   spacing={1}
                   sx={{ alignItems: 'center' }}
                 >
-                  <Typography>가능</Typography>
+                  <Typography>{Constants.TABLE.POSSIBLE}</Typography>
                   <Styled.CustomSwitch
                     checked={row.loginLimit}
                     inputProps={{ 'aria-label': 'ant design' }}
                   />
-                  <Typography>제한</Typography>
+                  <Typography>{Constants.TABLE.IMPOSSIBLE}</Typography>
                 </Stack>
               </FormGroup>
             </Styled.CustomTableCell>
@@ -93,7 +94,7 @@ const TableBody = ({ rows }: MainType.TableBodyProps) => {
             align="center"
             colSpan={6}
           >
-            데이터가 없습니다
+            {Constants.TABLE.NO_DATA}
           </Styled.CustomTableCell>
         </Styled.CustomTableRow>
       )}

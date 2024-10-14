@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Styled } from '../../../styles/tabs';
 import { PumpType } from '../../../types';
+import { Constants } from '../../../constants/table';
 
 function CustomTabPanel(props: PumpType.TabPanelProps) {
   const { children, value, index, ...other } = props;
@@ -42,10 +43,22 @@ const Tabs = ({ tabOne, tabTwo, tabThree, tabFour }: PumpType.TabsProps) => {
           onChange={handleChange}
           aria-label="pump tabs"
         >
-          <Styled.CustomTab label="주입이력" {...a11yProps(0)} />
-          <Styled.CustomTab label="교체이력" {...a11yProps(1)} />
-          <Styled.CustomTab label="공기빼기" {...a11yProps(2)} />
-          <Styled.CustomTab label="알람이력" {...a11yProps(3)} />
+          <Styled.CustomTab
+            label={`${Constants.TabNames.INJECTION}`}
+            {...a11yProps(0)}
+          />
+          <Styled.CustomTab
+            label={`${Constants.TabNames.REPLACEMENT}`}
+            {...a11yProps(1)}
+          />
+          <Styled.CustomTab
+            label={`${Constants.TabNames.AIRREMOVE}`}
+            {...a11yProps(2)}
+          />
+          <Styled.CustomTab
+            label={`${Constants.TabNames.ALARM}`}
+            {...a11yProps(3)}
+          />
         </Styled.CustomTabs>
       </Styled.CustomBox>
       <CustomTabPanel value={value} index={0}>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Styled } from '../../styles/main/search';
 import { MainType } from '../../types';
+import { Constants } from '../../constants/search';
 
 const Search = ({
   searchValue,
@@ -9,15 +10,15 @@ const Search = ({
   return (
     <Styled.SearchContainer>
       <Styled.SearchSelect>
-        <Styled.SearchOption>전체</Styled.SearchOption>
-        <Styled.SearchOption>이름</Styled.SearchOption>
-        <Styled.SearchOption>펌프시리얼</Styled.SearchOption>
+        <Styled.SearchOption>{Constants.SEARCH.ALL}</Styled.SearchOption>
+        <Styled.SearchOption>{Constants.SEARCH.NAME}</Styled.SearchOption>
+        <Styled.SearchOption>{Constants.SEARCH.PUMP}</Styled.SearchOption>
       </Styled.SearchSelect>
       <Styled.SearchInput
         value={searchValue}
         onChange={handleChangeSearchValue}
       />
-      <Styled.SearchButton>검색</Styled.SearchButton>
+      <Styled.SearchButton>{Constants.SEARCH.SEARCH}</Styled.SearchButton>
     </Styled.SearchContainer>
   );
 };
