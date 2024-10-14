@@ -4,6 +4,7 @@ import { FormGroup, Stack, Typography } from '@mui/material';
 import PumpHistory from './pump/PumpHistory';
 import { MainType } from '../../types';
 import { Constants } from '../../constants/table';
+import DrawerComponent from './DrawerComponent';
 
 const TableBody = ({ rows }: MainType.TableBodyProps) => {
   const [state, setState] = useState(false);
@@ -44,7 +45,7 @@ const TableBody = ({ rows }: MainType.TableBodyProps) => {
             >
               {row.name}
             </Styled.CustomTableCell>
-            <PumpHistory
+            <DrawerComponent
               index={index}
               selectedIndex={selectedIndex}
               state={state}

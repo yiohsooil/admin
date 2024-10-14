@@ -3,7 +3,7 @@ import { Box, Button, Modal, Typography } from '@mui/material';
 
 export const Container = styled.div`
   width: 80vw;
-  min-width: 85m0px;
+  min-width: 850px;
 `;
 
 export const PumpListContainer = styled.div`
@@ -63,8 +63,9 @@ export const UserInfoContainer = styled.div`
   height: 40px;
   display: flex;
   box-sizing: border-box;
-  margin-bottom: 5px;
-  width: 100%;
+  width: 95%;
+  justify-content: center;
+  margin: 10px auto;
 `;
 
 export const TextWrapper = styled.div`
@@ -77,7 +78,6 @@ export const LabelText = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid #ccc;
   background-color: #ccc;
   font-weight: bold;
   font-size: 14px;
@@ -88,7 +88,6 @@ export const ValueText = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-right: 1px solid #ccc;
   font-size: 14px;
 `;
 
