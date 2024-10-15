@@ -16,9 +16,14 @@ export interface fromToDateProps {
 
 export interface HandleFromToDateProps {
   e: ChangeEvent<HTMLInputElement>;
+  fromToDate: fromToDateProps;
   handleDate: 'fromDate' | 'toDate';
   validCallback: (newDate: dayjs.Dayjs) => boolean;
   conditionalValidCallback: ({ fromDate, toDate }: DateRangeProps) => boolean;
+  chartConditionalValidCallback?: ({
+    fromDate,
+    toDate,
+  }: DateRangeProps) => boolean;
 }
 
 export interface PumpProps {

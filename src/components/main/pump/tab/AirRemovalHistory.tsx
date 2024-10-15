@@ -32,11 +32,12 @@ const AirRemovalHistory = ({
   limit,
   handlePageChange,
 }: TabType.TabProps) => {
-  const { data, isLoading, isError } = usePumpHistory.useAirRemovalHistory({
+  const { data, isLoading } = usePumpHistory({
     startDate,
     endDate,
     page,
     limit,
+    type: 'airRemovalHistory',
   });
 
   if (isLoading) {

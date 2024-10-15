@@ -1,27 +1,28 @@
 import React from 'react';
-import { Styled } from '../../../styles/main/periodSearch';
-import { isValidDateRange } from '../../../utils/isValidDateRange';
-import { dateRangeUtils } from '../../../utils/dateRangeUtils';
+import { Styled } from '../../../../styles/main/periodSearch';
+import { PumpType } from '../../../../types';
+import { Constants } from '../../../../constants/search';
+import { dateRangeUtils } from '../../../../utils/dateRangeUtils';
 import dayjs from 'dayjs';
-import { PumpType } from '../../../types';
-import { Constants } from '../../../constants/search';
+import { isValidDateRange } from '../../../../utils/isValidDateRange';
 
-interface PeriodSearchProps {
+interface ChartPeriodSearchProps {
   fromToDate: PumpType.fromToDateProps;
   handleFromToDate: ({
     e,
     handleDate,
     validCallback,
     conditionalValidCallback,
+    chartConditionalValidCallback,
   }: PumpType.HandleFromToDateProps) => void;
   handleDateRange: (callback: () => { fromDate: Date; toDate: Date }) => void;
 }
 
-const PeriodSearch = ({
+const ChartPeriodSearch = ({
   fromToDate,
   handleFromToDate,
   handleDateRange,
-}: PeriodSearchProps) => {
+}: ChartPeriodSearchProps) => {
   return (
     <Styled.Container>
       <Styled.Label>{Constants.PERIOD.TITLE}</Styled.Label>
@@ -38,27 +39,15 @@ const PeriodSearch = ({
           </Styled.CustomButton>
           <Styled.CustomButton
             size="small"
+            onClick={() => handleDateRange(dateRangeUtils.get3LastDaysRange)}
+          >
+            {Constants.PERIOD['3DAYS']}
+          </Styled.CustomButton>
+          <Styled.CustomButton
+            size="small"
             onClick={() => handleDateRange(dateRangeUtils.getLastWeekRange)}
           >
             {Constants.PERIOD.WEEK}
-          </Styled.CustomButton>
-          <Styled.CustomButton
-            size="small"
-            onClick={() => handleDateRange(dateRangeUtils.getLast15DaysRange)}
-          >
-            {Constants.PERIOD['15DAYS']}
-          </Styled.CustomButton>
-          <Styled.CustomButton
-            size="small"
-            onClick={() => handleDateRange(dateRangeUtils.getLastMonthRange)}
-          >
-            {Constants.PERIOD.MONTH}
-          </Styled.CustomButton>
-          <Styled.CustomButton
-            size="small"
-            onClick={() => handleDateRange(dateRangeUtils.getLast3MonthsRange)}
-          >
-            {Constants.PERIOD['3MONTHS']}
           </Styled.CustomButton>
         </Styled.CustomButtonGroup>
         <Styled.Input
@@ -75,6 +64,8 @@ const PeriodSearch = ({
               handleDate: 'fromDate',
               validCallback: isValidDateRange.isFromDateWithinThreeMonths,
               conditionalValidCallback: isValidDateRange.isToDateAfterFromDate,
+              chartConditionalValidCallback:
+                isValidDateRange.isDateRangeWithinSevenDays,
             })
           }
         />
@@ -93,6 +84,8 @@ const PeriodSearch = ({
               handleDate: 'toDate',
               validCallback: isValidDateRange.isToDateValid,
               conditionalValidCallback: isValidDateRange.isToDateAfterFromDate,
+              chartConditionalValidCallback:
+                isValidDateRange.isDateRangeWithinSevenDays,
             })
           }
         />
@@ -106,4 +99,4 @@ const PeriodSearch = ({
   );
 };
 
-export default PeriodSearch;
+export default ChartPeriodSearch;

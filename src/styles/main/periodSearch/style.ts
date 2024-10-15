@@ -10,7 +10,7 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ccc;
-  padding: 0 20px;
+  padding: 0 25px;
 `;
 
 export const SearchWrapper = styled.div`

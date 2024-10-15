@@ -16,11 +16,12 @@ const AlarmHistory = ({
   limit,
   handlePageChange,
 }: TabType.TabProps) => {
-  const { data, isLoading, isError } = usePumpHistory.useAlarmHistory({
+  const { data, isLoading, isError } = usePumpHistory({
     startDate,
     endDate,
     page,
     limit,
+    type: 'alarmHistory',
   });
 
   return (

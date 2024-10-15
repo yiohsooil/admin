@@ -1,12 +1,13 @@
 import React, { useRef, useState } from 'react';
 import { PumpType } from '../../types';
 import { HandlePageChangeProps } from '../../types/main/pump/tab';
-import { useReactToPrint } from 'react-to-print';
 import dayjs from 'dayjs';
 import { Drawer } from '@mui/material';
 import LeftTap from './pump/LeftTab';
 import PumpHistory from './pump/PumpHistory';
-import UserInfo from './pump/UserInfo';
+import PumpChart from './pump/chart/PumpChart';
+import { dateRangeUtils } from '../../utils/dateRangeUtils';
+import { useHandlePrint } from '../../utils/print';
 
 const DrawerComponent = ({
   index,
@@ -34,39 +35,23 @@ const DrawerComponent = ({
     handleDate,
     validCallback,
     conditionalValidCallback,
+    chartConditionalValidCallback = undefined,
   }: PumpType.HandleFromToDateProps) => {
-    const newDate = dayjs(e.target.value);
-    const isValid = validCallback(newDate);
-    if (!isValid) {
-      return;
-    }
-    const validDate = {
-      fromDate:
-        handleDate === 'fromDate'
-          ? newDate
-          : (fromToDate.fromDate as dayjs.Dayjs),
-      toDate:
-        handleDate === 'toDate' ? newDate : (fromToDate.toDate as dayjs.Dayjs),
-    };
+    const fromToDateNewDate = dateRangeUtils.fromToDateUtil({
+      e,
+      fromToDate,
+      handleDate,
+      validCallback,
+      conditionalValidCallback,
+      chartConditionalValidCallback,
+    });
 
-    if (!fromToDate[handleDate] && validDate.fromDate && validDate.toDate) {
-      const isDateRangeValid = conditionalValidCallback({
-        fromDate: newDate,
-        toDate: validDate.toDate,
-      });
-      if (!isDateRangeValid) {
-        return;
-      }
+    if (fromToDateNewDate) {
+      setFromToDate((prev) => ({
+        ...prev,
+        [handleDate]: fromToDateNewDate ?? null,
+      }));
     }
-
-    if (fromToDate[handleDate] && !conditionalValidCallback(validDate)) {
-      return;
-    }
-
-    setFromToDate((prev) => ({
-      ...prev,
-      [handleDate]: e.target.value ? newDate : null,
-    }));
   };
 
   const handleDateRange = (
@@ -79,31 +64,7 @@ const DrawerComponent = ({
     }));
   };
 
-  const handlePrint = useReactToPrint({
-    content: () => componentRef.current,
-    pageStyle: `
-        @page {
-          size: auto;
-          margin: 25mm;
-        }
-        body {
-          -webkit-print-color-adjust: exact;
-          margin: 20mm;
-        }
-        header, footer {
-          display: none !important;
-        }
-        table, th, td {
-          border: 1px solid #ccc !important;
-          border-collapse: collapse !important;
-        }
-        @media print {
-          .print-button {
-            display: none !important;
-          }
-        }
-      `,
-  });
+  const handlePrint = useHandlePrint(componentRef);
 
   const handlePageChange = ({ page, type }: HandlePageChangeProps) => {
     setPages((prev) => ({
@@ -133,13 +94,7 @@ const DrawerComponent = ({
             handlePrint={handlePrint}
           />
         }
-        chartsTab={
-          <UserInfo
-            name={row.name}
-            pumpSerial={row.pumpSerial}
-            birthDate={row.birthDate}
-          />
-        }
+        chartsTab={<PumpChart row={row} />}
       />
     </Drawer>
   );

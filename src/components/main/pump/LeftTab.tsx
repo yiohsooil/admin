@@ -25,7 +25,7 @@ function TabPanel(props: TabPanelProps) {
     >
       {value === index && (
         <Styled.CustomBox>
-          <Styled.CustomTypography>{children}</Styled.CustomTypography>
+          <Styled.TabPanelContainer>{children}</Styled.TabPanelContainer>
         </Styled.CustomBox>
       )}
     </div>

@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import { pump } from '../types';
+import { PumpType } from '../types';
 
 const showError = (message: string): void => {
   console.error(message);
@@ -19,7 +19,7 @@ const isToDateValid = (toDate: dayjs.Dayjs): boolean => {
 const isToDateAfterFromDate = ({
   fromDate,
   toDate,
-}: pump.DateRangeProps): boolean => {
+}: PumpType.DateRangeProps): boolean => {
   if (toDate < fromDate) {
     showError('종료 날짜는 시작 날짜보다 과거일 수 없습니다.');
     return false;
@@ -38,10 +38,20 @@ const isFromDateWithinThreeMonths = (fromDate: dayjs.Dayjs): boolean => {
   return true;
 };
 
-const isValidDateRange = {
+const isDateRangeWithinSevenDays = ({
+  fromDate,
+  toDate,
+}: PumpType.DateRangeProps): boolean => {
+  if (toDate.diff(fromDate, 'day') > 7) {
+    showError('시작 날짜와 종료 날짜는 7일 이내여야 합니다.');
+    return false;
+  }
+  return true;
+};
+
+export const isValidDateRange = {
   isToDateValid,
   isToDateAfterFromDate,
   isFromDateWithinThreeMonths,
+  isDateRangeWithinSevenDays,
 };
-
-export { isValidDateRange };

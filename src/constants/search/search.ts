@@ -1,6 +1,7 @@
 export const PERIOD = {
   TITLE: '기간 검색',
   TODAY: '오늘',
+  '3DAYS': '3일',
   WEEK: '1주',
   '15DAYS': '15일',
   MONTH: '1개월',

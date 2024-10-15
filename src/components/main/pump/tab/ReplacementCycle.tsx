@@ -17,11 +17,12 @@ const ReplacementCycle = ({
   limit,
   handlePageChange,
 }: TabType.TabProps) => {
-  const { data, isLoading, isError } = usePumpHistory.useReplacementCycle({
+  const { data, isLoading } = usePumpHistory({
     startDate,
     endDate,
     page,
     limit,
+    type: 'replacementCycle',
   });
 
   if (isLoading) {

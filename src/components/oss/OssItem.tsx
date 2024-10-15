@@ -18,7 +18,7 @@ const OssItem = ({ label, link, subLink, descriptions }: OssItemProps) => {
         {link}
       </Styled.Link>
       {descriptions.map((description, index) => (
-        <p>
+        <p key={label}>
           {description}{' '}
           {index === 0 && subLink && (
             <Styled.Link href={subLink} target="_blank">

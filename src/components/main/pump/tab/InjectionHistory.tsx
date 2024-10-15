@@ -16,11 +16,12 @@ const InjectionHistory = ({
   limit,
   handlePageChange,
 }: TabType.TabProps) => {
-  const { data, isLoading, isError } = usePumpHistory.useInjectionHistory({
+  const { data, isLoading } = usePumpHistory({
     startDate,
     endDate,
     page,
     limit,
+    type: 'injectionHistory',
   });
 
   if (isLoading) {

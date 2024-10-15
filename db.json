@@ -243,925 +243,696 @@
   ],
   "injectionHistory": [
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 8,
       "hour": 6,
       "min": 0,
       "sec": 51,
-      "value": 2436.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 2436.6
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 8,
       "hour": 15,
       "min": 42,
       "sec": 37,
-      "value": 2539.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2539.3
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 8,
       "hour": 14,
       "min": 14,
       "sec": 27,
-      "value": 2560.7,
-      "error": 0,
-      "errorValue": 0
+      "value": 2560.7
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 7,
       "hour": 6,
       "min": 24,
       "sec": 44,
-      "value": 2505.4,
-      "error": 0,
-      "errorValue": 0
+      "value": 2505.4
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 7,
       "hour": 8,
       "min": 46,
       "sec": 11,
-      "value": 2423.0,
-      "error": 0,
-      "errorValue": 0
+      "value": 2423.0
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 7,
       "hour": 15,
       "min": 27,
       "sec": 23,
-      "value": 2585.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2585.3
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 6,
       "hour": 6,
       "min": 17,
       "sec": 17,
-      "value": 2411.7,
-      "error": 0,
-      "errorValue": 0
+      "value": 2411.7
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 6,
       "hour": 8,
       "min": 33,
       "sec": 40,
-      "value": 2546.0,
-      "error": 0,
-      "errorValue": 0
+      "value": 2546.0
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 6,
       "hour": 15,
       "min": 46,
       "sec": 35,
-      "value": 2490.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 2490.8
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 5,
       "hour": 6,
       "min": 2,
       "sec": 36,
-      "value": 2576.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2576.3
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 5,
       "hour": 8,
       "min": 31,
       "sec": 36,
-      "value": 2447.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2447.3
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 5,
       "hour": 15,
       "min": 54,
       "sec": 4,
-      "value": 2568.0,
-      "error": 0,
-      "errorValue": 0
+      "value": 2568.0
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 4,
       "hour": 6,
       "min": 16,
       "sec": 4,
-      "value": 2550.2,
-      "error": 0,
-      "errorValue": 0
+      "value": 2550.2
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 4,
       "hour": 8,
       "min": 15,
       "sec": 38,
-      "value": 2407.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 2407.1
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 4,
       "hour": 15,
       "min": 42,
       "sec": 52,
-      "value": 2540.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 2540.8
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 3,
       "hour": 6,
       "min": 40,
       "sec": 4,
-      "value": 2507.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 2507.5
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 3,
       "hour": 8,
       "min": 34,
       "sec": 32,
-      "value": 2567.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 2567.6
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 3,
       "hour": 15,
       "min": 24,
       "sec": 13,
-      "value": 2572.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2572.3
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 2,
       "hour": 6,
       "min": 40,
       "sec": 39,
-      "value": 2430.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 2430.1
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 2,
       "hour": 8,
       "min": 46,
       "sec": 53,
-      "value": 2598.2,
-      "error": 0,
-      "errorValue": 0
+      "value": 2598.2
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 2,
       "hour": 15,
       "min": 1,
       "sec": 11,
-      "value": 2474.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 2474.8
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 1,
       "hour": 6,
       "min": 19,
       "sec": 42,
-      "value": 2547.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 2547.1
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 1,
       "hour": 8,
       "min": 44,
       "sec": 11,
-      "value": 2470.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 2470.6
     },
     {
-      "type": 2,
       "year": 24,
       "month": 10,
       "day": 1,
       "hour": 15,
       "min": 37,
       "sec": 15,
-      "value": 2545.7,
-      "error": 0,
-      "errorValue": 0
+      "value": 2545.7
     }
   ],
   "replacementCycle": [
     {
-      "type": 5,
       "year": 24,
       "month": 10,
       "day": 8,
       "hour": 6,
       "min": 0,
       "sec": 51,
-      "value": 2436.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 2436.6
     },
     {
-      "type": 5,
       "year": 24,
       "month": 10,
       "day": 4,
       "hour": 8,
       "min": 42,
       "sec": 37,
-      "value": 2539.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2539.3
     },
     {
-      "type": 5,
       "year": 24,
       "month": 9,
       "day": 30,
       "hour": 15,
       "min": 14,
       "sec": 27,
-      "value": 2560.7,
-      "error": 0,
-      "errorValue": 0
+      "value": 2560.7
     },
     {
-      "type": 5,
       "year": 24,
       "month": 9,
       "day": 26,
       "hour": 6,
       "min": 24,
       "sec": 44,
-      "value": 2505.4,
-      "error": 0,
-      "errorValue": 0
+      "value": 2505.4
     },
     {
-      "type": 5,
       "year": 24,
       "month": 9,
       "day": 18,
       "hour": 15,
       "min": 27,
       "sec": 23,
-      "value": 2585.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2585.3
     },
     {
-      "type": 5,
       "year": 24,
       "month": 9,
       "day": 14,
       "hour": 6,
       "min": 17,
       "sec": 17,
-      "value": 2411.7,
-      "error": 0,
-      "errorValue": 0
+      "value": 2411.7
     },
     {
-      "type": 5,
       "year": 24,
       "month": 9,
       "day": 10,
       "hour": 8,
       "min": 33,
       "sec": 40,
-      "value": 2546.0,
-      "error": 0,
-      "errorValue": 0
+      "value": 2546.0
     },
     {
-      "type": 5,
       "year": 24,
       "month": 9,
       "day": 4,
       "hour": 15,
       "min": 46,
       "sec": 35,
-      "value": 2490.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 2490.8
     },
     {
-      "type": 5,
       "year": 24,
       "month": 9,
       "day": 1,
       "hour": 6,
       "min": 2,
       "sec": 36,
-      "value": 2576.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2576.3
     },
     {
-      "type": 5,
       "year": 24,
       "month": 8,
       "day": 28,
       "hour": 8,
       "min": 31,
       "sec": 36,
-      "value": 2447.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2447.3
     },
     {
-      "type": 5,
       "year": 24,
       "month": 8,
       "day": 24,
       "hour": 15,
       "min": 54,
       "sec": 4,
-      "value": 2568.0,
-      "error": 0,
-      "errorValue": 0
+      "value": 2568.0
     },
     {
-      "type": 5,
       "year": 24,
       "month": 8,
       "day": 19,
       "hour": 6,
       "min": 16,
       "sec": 4,
-      "value": 2550.2,
-      "error": 0,
-      "errorValue": 0
+      "value": 2550.2
     },
     {
-      "type": 5,
       "year": 24,
       "month": 8,
       "day": 16,
       "hour": 8,
       "min": 15,
       "sec": 38,
-      "value": 2407.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 2407.1
     },
     {
-      "type": 5,
       "year": 24,
       "month": 8,
       "day": 10,
       "hour": 15,
       "min": 42,
       "sec": 52,
-      "value": 2540.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 2540.8
     },
     {
-      "type": 5,
       "year": 24,
       "month": 8,
       "day": 8,
       "hour": 6,
       "min": 40,
       "sec": 4,
-      "value": 2507.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 2507.5
     },
     {
-      "type": 5,
       "year": 24,
       "month": 8,
       "day": 3,
       "hour": 8,
       "min": 34,
       "sec": 32,
-      "value": 2567.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 2567.6
     },
     {
-      "type": 5,
       "year": 24,
       "month": 8,
       "day": 1,
       "hour": 15,
       "min": 24,
       "sec": 13,
-      "value": 2572.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 2572.3
     },
     {
-      "type": 5,
       "year": 24,
       "month": 7,
       "day": 26,
       "hour": 6,
       "min": 40,
       "sec": 39,
-      "value": 2430.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 2430.1
     },
     {
-      "type": 5,
       "year": 24,
       "month": 7,
       "day": 24,
       "hour": 8,
       "min": 46,
       "sec": 53,
-      "value": 2598.2,
-      "error": 0,
-      "errorValue": 0
+      "value": 2598.2
     },
     {
-      "type": 5,
       "year": 24,
       "month": 7,
       "day": 18,
       "hour": 15,
       "min": 1,
       "sec": 11,
-      "value": 2474.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 2474.8
     },
     {
-      "type": 5,
       "year": 24,
       "month": 7,
       "day": 14,
       "hour": 6,
       "min": 19,
       "sec": 42,
-      "value": 2547.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 2547.1
     },
     {
-      "type": 5,
       "year": 24,
       "month": 7,
       "day": 10,
       "hour": 8,
       "min": 44,
       "sec": 11,
-      "value": 2470.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 2470.6
     }
   ],
   "airRemovalHistory": [
     {
-      "type": 4,
       "year": 24,
       "month": 10,
       "day": 8,
       "hour": 6,
       "min": 0,
       "sec": 51,
-      "value": 184.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 184.6
     },
     {
-      "type": 4,
       "year": 24,
       "month": 10,
       "day": 4,
       "hour": 8,
       "min": 42,
       "sec": 37,
-      "value": 270.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 270.1
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 30,
       "hour": 15,
       "min": 14,
       "sec": 27,
-      "value": 495.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 495.1
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 26,
       "hour": 6,
       "min": 24,
       "sec": 44,
-      "value": 1051.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 1051.1
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 10,
       "hour": 8,
       "min": 46,
       "sec": 11,
-      "value": 2054.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 2054.6
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 18,
       "hour": 15,
       "min": 27,
       "sec": 23,
-      "value": 1778.9,
-      "error": 0,
-      "errorValue": 0
+      "value": 1778.9
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 14,
       "hour": 6,
       "min": 17,
       "sec": 17,
-      "value": 1096.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 1096.3
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 10,
       "hour": 8,
       "min": 33,
       "sec": 40,
-      "value": 398.0,
-      "error": 0,
-      "errorValue": 0
+      "value": 398.0
     },
     {
-      "type": 4,
       "year": 24,
       "month": 10,
       "day": 6,
       "hour": 15,
       "min": 46,
       "sec": 35,
-      "value": 286.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 286.6
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 23,
       "hour": 6,
       "min": 2,
       "sec": 36,
-      "value": 1173.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 1173.6
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 28,
       "hour": 8,
       "min": 31,
       "sec": 36,
-      "value": 1124.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 1124.6
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 24,
       "hour": 15,
       "min": 54,
       "sec": 4,
-      "value": 2145.7,
-      "error": 0,
-      "errorValue": 0
+      "value": 2145.7
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 20,
       "hour": 6,
       "min": 16,
       "sec": 4,
-      "value": 160.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 160.8
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 16,
       "hour": 8,
       "min": 15,
       "sec": 38,
-      "value": 717.9,
-      "error": 0,
-      "errorValue": 0
+      "value": 717.9
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 30,
       "hour": 15,
       "min": 42,
       "sec": 52,
-      "value": 920.9,
-      "error": 0,
-      "errorValue": 0
+      "value": 920.9
     },
     {
-      "type": 4,
       "year": 24,
       "month": 10,
       "day": 8,
       "hour": 6,
       "min": 40,
       "sec": 4,
-      "value": 675.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 675.5
     },
     {
-      "type": 4,
       "year": 24,
       "month": 10,
       "day": 4,
       "hour": 8,
       "min": 34,
       "sec": 32,
-      "value": 994.7,
-      "error": 0,
-      "errorValue": 0
+      "value": 994.7
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 30,
       "hour": 15,
       "min": 24,
       "sec": 13,
-      "value": 1332.0,
-      "error": 0,
-      "errorValue": 0
+      "value": 1332.0
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 26,
       "hour": 6,
       "min": 40,
       "sec": 39,
-      "value": 2184.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 2184.5
     },
     {
-      "type": 4,
       "year": 24,
       "month": 10,
       "day": 3,
       "hour": 8,
       "min": 46,
       "sec": 53,
-      "value": 1100.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 1100.1
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 18,
       "hour": 15,
       "min": 1,
       "sec": 11,
-      "value": 917.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 917.6
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 14,
       "hour": 6,
       "min": 19,
       "sec": 42,
-      "value": 559.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 559.8
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 10,
       "hour": 8,
       "min": 44,
       "sec": 11,
-      "value": 496.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 496.5
     },
     {
-      "type": 4,
       "year": 24,
       "month": 10,
       "day": 6,
       "hour": 15,
       "min": 37,
       "sec": 15,
-      "value": 342.9,
-      "error": 0,
-      "errorValue": 0
+      "value": 342.9
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 20,
       "hour": 6,
       "min": 4,
       "sec": 4,
-      "value": 146.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 146.3
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 28,
       "hour": 8,
       "min": 39,
       "sec": 7,
-      "value": 528.2,
-      "error": 0,
-      "errorValue": 0
+      "value": 528.2
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 24,
       "hour": 15,
       "min": 13,
       "sec": 6,
-      "value": 1114.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 1114.5
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 20,
       "hour": 6,
       "min": 7,
       "sec": 18,
-      "value": 1943.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 1943.6
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 16,
       "hour": 8,
       "min": 12,
       "sec": 36,
-      "value": 1118.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 1118.3
     },
     {
-      "type": 4,
       "year": 24,
       "month": 9,
       "day": 13,
       "hour": 15,
       "min": 3,
       "sec": 21,
-      "value": 221.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 221.8
     }
   ],
   "alarmHistory": [
     {
-      "type": 10,
       "year": 24,
       "month": 10,
       "day": 8,
@@ -1169,12 +940,9 @@
       "min": 0,
       "sec": 51,
       "code": 80,
-      "value": 184.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 184.6
     },
     {
-      "type": 10,
       "year": 24,
       "month": 10,
       "day": 4,
@@ -1182,12 +950,9 @@
       "min": 42,
       "sec": 37,
       "code": 80,
-      "value": 270.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 270.1
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 30,
@@ -1195,12 +960,9 @@
       "min": 14,
       "sec": 27,
       "code": 80,
-      "value": 495.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 495.1
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 26,
@@ -1208,12 +970,9 @@
       "min": 24,
       "sec": 44,
       "code": 80,
-      "value": 1051.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 1051.1
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 10,
@@ -1221,12 +980,9 @@
       "min": 46,
       "sec": 11,
       "code": 80,
-      "value": 2054.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 2054.6
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 18,
@@ -1234,12 +990,9 @@
       "min": 27,
       "sec": 23,
       "code": 80,
-      "value": 1778.9,
-      "error": 0,
-      "errorValue": 0
+      "value": 1778.9
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 14,
@@ -1247,12 +1000,9 @@
       "min": 17,
       "sec": 17,
       "code": 80,
-      "value": 1096.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 1096.3
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 10,
@@ -1260,12 +1010,9 @@
       "min": 33,
       "sec": 40,
       "code": 80,
-      "value": 398.0,
-      "error": 0,
-      "errorValue": 0
+      "value": 398.0
     },
     {
-      "type": 10,
       "year": 24,
       "month": 10,
       "day": 6,
@@ -1273,12 +1020,9 @@
       "min": 46,
       "sec": 35,
       "code": 80,
-      "value": 286.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 286.6
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 23,
@@ -1286,12 +1030,9 @@
       "min": 2,
       "sec": 36,
       "code": 80,
-      "value": 1173.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 1173.6
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 28,
@@ -1299,12 +1040,9 @@
       "min": 31,
       "sec": 36,
       "code": 80,
-      "value": 1124.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 1124.6
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 24,
@@ -1312,12 +1050,9 @@
       "min": 54,
       "sec": 4,
       "code": 80,
-      "value": 2145.7,
-      "error": 0,
-      "errorValue": 0
+      "value": 2145.7
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 20,
@@ -1325,12 +1060,9 @@
       "min": 16,
       "sec": 4,
       "code": 80,
-      "value": 160.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 160.8
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 16,
@@ -1338,12 +1070,9 @@
       "min": 15,
       "sec": 38,
       "code": 80,
-      "value": 717.9,
-      "error": 0,
-      "errorValue": 0
+      "value": 717.9
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 30,
@@ -1351,12 +1080,9 @@
       "min": 42,
       "sec": 52,
       "code": 80,
-      "value": 920.9,
-      "error": 0,
-      "errorValue": 0
+      "value": 920.9
     },
     {
-      "type": 10,
       "year": 24,
       "month": 10,
       "day": 8,
@@ -1364,12 +1090,9 @@
       "min": 40,
       "sec": 4,
       "code": 80,
-      "value": 675.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 675.5
     },
     {
-      "type": 10,
       "year": 24,
       "month": 10,
       "day": 4,
@@ -1377,12 +1100,9 @@
       "min": 34,
       "sec": 32,
       "code": 80,
-      "value": 994.7,
-      "error": 0,
-      "errorValue": 0
+      "value": 994.7
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 30,
@@ -1390,12 +1110,9 @@
       "min": 24,
       "sec": 13,
       "code": 80,
-      "value": 1332.0,
-      "error": 0,
-      "errorValue": 0
+      "value": 1332.0
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 26,
@@ -1403,12 +1120,9 @@
       "min": 40,
       "sec": 39,
       "code": 80,
-      "value": 2184.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 2184.5
     },
     {
-      "type": 10,
       "year": 24,
       "month": 10,
       "day": 3,
@@ -1416,12 +1130,9 @@
       "min": 46,
       "sec": 53,
       "code": 80,
-      "value": 1100.1,
-      "error": 0,
-      "errorValue": 0
+      "value": 1100.1
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 18,
@@ -1429,12 +1140,9 @@
       "min": 1,
       "sec": 11,
       "code": 80,
-      "value": 917.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 917.6
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 14,
@@ -1442,12 +1150,9 @@
       "min": 19,
       "sec": 42,
       "code": 80,
-      "value": 559.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 559.8
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 10,
@@ -1455,12 +1160,9 @@
       "min": 44,
       "sec": 11,
       "code": 80,
-      "value": 496.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 496.5
     },
     {
-      "type": 10,
       "year": 24,
       "month": 10,
       "day": 6,
@@ -1468,12 +1170,9 @@
       "min": 37,
       "sec": 15,
       "code": 80,
-      "value": 342.9,
-      "error": 0,
-      "errorValue": 0
+      "value": 342.9
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 20,
@@ -1481,12 +1180,9 @@
       "min": 4,
       "sec": 4,
       "code": 80,
-      "value": 146.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 146.3
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 28,
@@ -1494,12 +1190,9 @@
       "min": 39,
       "sec": 7,
       "code": 80,
-      "value": 528.2,
-      "error": 0,
-      "errorValue": 0
+      "value": 528.2
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 24,
@@ -1507,12 +1200,9 @@
       "min": 13,
       "sec": 6,
       "code": 80,
-      "value": 1114.5,
-      "error": 0,
-      "errorValue": 0
+      "value": 1114.5
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 20,
@@ -1520,12 +1210,9 @@
       "min": 7,
       "sec": 18,
       "code": 80,
-      "value": 1943.6,
-      "error": 0,
-      "errorValue": 0
+      "value": 1943.6
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 16,
@@ -1533,12 +1220,9 @@
       "min": 12,
       "sec": 36,
       "code": 80,
-      "value": 1118.3,
-      "error": 0,
-      "errorValue": 0
+      "value": 1118.3
     },
     {
-      "type": 10,
       "year": 24,
       "month": 9,
       "day": 13,
@@ -1546,9 +1230,2889 @@
       "min": 3,
       "sec": 21,
       "code": 80,
-      "value": 221.8,
-      "error": 0,
-      "errorValue": 0
+      "value": 221.8
+    }
+  ],
+  "basal": [
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 0,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 1,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 2,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 3,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 4,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 5,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 6,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 7,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 8,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 9,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 10,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 11,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 12,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 13,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 14,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 15,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 16,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 17,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 18,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 19,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.34
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 20,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.3
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.33
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 21,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.35
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 22,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 0,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 5,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 10,
+      "sec": 0,
+      "code": 80,
+      "value": 0.28
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 15,
+      "sec": 0,
+      "code": 80,
+      "value": 0.25
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 20,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 25,
+      "sec": 0,
+      "code": 80,
+      "value": 0.26
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 30,
+      "sec": 0,
+      "code": 80,
+      "value": 0.29
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 35,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 40,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 45,
+      "sec": 0,
+      "code": 80,
+      "value": 0.27
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 50,
+      "sec": 0,
+      "code": 80,
+      "value": 0.31
+    },
+    {
+      "year": 24,
+      "month": 10,
+      "day": 15,
+      "hour": 23,
+      "min": 55,
+      "sec": 0,
+      "code": 80,
+      "value": 0.32
     }
   ]
 }

@@ -32,36 +32,36 @@ const PumpPrintModal = forwardRef<HTMLDivElement, PumpPrintModalProps>(
     const fourDaysAgoEndDate = endDate.subtract(3, 'day').startOf('day');
     const diffInDays = endDate.diff(startDate, 'day');
 
-    const { data: injectionHistoryPrintData } =
-      usePumpHistoryPrint.useInjectionHistoryPrint({
-        startDate: diffInDays >= 3 ? fourDaysAgoEndDate : startDate,
-        endDate,
-        enabled: open,
-      });
+    const { data: injectionHistoryPrintData } = usePumpHistoryPrint({
+      startDate: diffInDays >= 3 ? fourDaysAgoEndDate : startDate,
+      endDate,
+      enabled: open,
+      type: 'injectionHistory',
+    });
 
     const oneMonthAgoEndDate = endDate.subtract(1, 'month').startOf('day');
     const diffInMonths = endDate.diff(startDate, 'month');
 
-    const { data: replacementCyclePrintData } =
-      usePumpHistoryPrint.useReplacementCyclePrint({
-        startDate: diffInMonths >= 1 ? oneMonthAgoEndDate : startDate,
-        endDate,
-        enabled: open,
-      });
+    const { data: replacementCyclePrintData } = usePumpHistoryPrint({
+      startDate: diffInMonths >= 1 ? oneMonthAgoEndDate : startDate,
+      endDate,
+      enabled: open,
+      type: 'replacementCycle',
+    });
 
-    const { data: airRemovalHistoryPrintData } =
-      usePumpHistoryPrint.useAirRemovalHistoryPrint({
-        startDate: diffInMonths >= 1 ? oneMonthAgoEndDate : startDate,
-        endDate,
-        enabled: open,
-      });
+    const { data: airRemovalHistoryPrintData } = usePumpHistoryPrint({
+      startDate: diffInMonths >= 1 ? oneMonthAgoEndDate : startDate,
+      endDate,
+      enabled: open,
+      type: 'airRemovalHistory',
+    });
 
-    const { data: alarmHistoryPrintData } =
-      usePumpHistoryPrint.useAlarmHistoryPrint({
-        startDate,
-        endDate,
-        enabled: open,
-      });
+    const { data: alarmHistoryPrintData } = usePumpHistoryPrint({
+      startDate,
+      endDate,
+      enabled: open,
+      type: 'alarmHistory',
+    });
 
     const handleEvaluationChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
       setEvaluationValue(e.target.value);
