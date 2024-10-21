@@ -6,6 +6,7 @@ import dayjs from 'dayjs';
 import ComposedChartComponent from './ComposedChartComponent';
 import { dateRangeUtils } from '../../../../utils/dateRangeUtils';
 import ChartPeriodSearch from './ChartPeriodSearch';
+import Highchart from './Highchart';
 
 interface PumpChartProps {
   row: MainType.RowsProps;
@@ -13,7 +14,7 @@ interface PumpChartProps {
 
 const PumpChart = ({ row }: PumpChartProps) => {
   const [fromToDate, setFromToDate] = useState<PumpType.fromToDateProps>({
-    fromDate: dayjs().subtract(1, 'month').startOf('day'),
+    fromDate: dayjs().startOf('day'),
     toDate: dayjs(),
   });
 
@@ -63,7 +64,10 @@ const PumpChart = ({ row }: PumpChartProps) => {
         handleFromToDate={handleFromToDate}
         handleDateRange={handleDateRange}
       />
-      <ComposedChartComponent fromToDate={fromToDate} />
+      {/* <ComposedChartComponent fromToDate={fromToDate} /> */}
+      <Styled.ChartWrapper>
+        <Highchart fromToDate={fromToDate} />
+      </Styled.ChartWrapper>
     </Styled.Container>
   );
 };

@@ -34,3 +34,8 @@ export const CustomTooltipIntro = styled.p<{ color: string }>`
   font-size: 14px;
   color: ${(props) => props.color};
 `;
+
+export const ChartWrapper = styled.div`
+  box-sizing: border-box;
+  padding: 40px;
+`;
