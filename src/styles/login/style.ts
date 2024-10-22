@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { Theme } from '../theme';
 
 export const Container = styled.div`
   width: 100vw;
@@ -6,9 +7,14 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: #333;
+  color: ${Theme.colors.gray900};
   box-sizing: border-box;
-  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 50%, #f0f4c3 100%);
+  background: linear-gradient(
+    135deg,
+    ${Theme.colors.gradientFirst} 0%,
+    ${Theme.colors.gradientSecond} 50%,
+    ${Theme.colors.gradientThird} 100%
+  );
 `;
 
 export const InnerContainer = styled.div`
@@ -19,11 +25,11 @@ export const InnerContainer = styled.div`
   justify-content: center;
   gap: 20px;
   box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid ${Theme.colors.whiteOverlay30};
   border-radius: 16px;
   height: 400px;
-  background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: ${Theme.colors.whiteOverlay30};
+  box-shadow: 0 4px 30px ${Theme.colors.blackOverlay10};
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 `;
@@ -47,7 +53,9 @@ export const ImgWrapper = styled.div`
   gap: 20px;
 `;
 
-export const TextWrapper = styled.div``;
+export const TextWrapper = styled.div`
+  color: ${Theme.colors.black};
+`;
 
 export const Img = styled.img<{ height: number }>`
   height: ${({ height }) => height}px;
@@ -68,7 +76,7 @@ export const InputContainer = styled.div`
   box-sizing: border-box;
 
   &:focus-within label {
-    color: #3a57e8;
+    color: ${Theme.colors.white};
     font-weight: bold;
   }
 `;
@@ -77,7 +85,8 @@ export const Label = styled.label`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #333;
+  color: ${Theme.colors.black};
+  font-weight: bold;
   transition: all 0.3s ease;
 `;
 export const Input = styled.input`
@@ -85,21 +94,21 @@ export const Input = styled.input`
   padding: 10px 12px;
   outline: none;
   border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border: 1px solid ${Theme.colors.blackOverlay40};
 
   transition: border-color 0.3s ease;
 
   &:focus {
-    border-color: #3a57e8;
+    border-color: ${Theme.colors.mainBlue};
   }
 `;
 
 export const Button = styled.input`
   width: 400px;
-  background: #3a57e8;
+  background: ${Theme.colors.loginBlue};
   border: none;
   outline: none;
-  color: #fff;
+  color: ${Theme.colors.white};
   padding: 14px 12px;
   box-sizing: border-box;
   margin-top: 15px;

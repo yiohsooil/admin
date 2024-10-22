@@ -11,7 +11,7 @@ const LoginTitle = () => {
         <Styled.Img src={anydana} alt="Anydana" height={30} />
         <Styled.Img src={plus} alt="Plus" height={20} />
       </Styled.ImgWrapper>
-      <Styled.TextWrapper>{Constants.Login.PASSWORD}</Styled.TextWrapper>
+      <Styled.TextWrapper>{Constants.Login.ADMIN_TITLE}</Styled.TextWrapper>
     </Styled.Tilte>
   );
 };

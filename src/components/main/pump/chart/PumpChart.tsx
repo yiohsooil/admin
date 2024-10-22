@@ -3,7 +3,6 @@ import { Styled } from '../../../../styles/chart';
 import UserInfo from '../UserInfo';
 import { MainType, PumpType } from '../../../../types';
 import dayjs from 'dayjs';
-import ComposedChartComponent from './ComposedChartComponent';
 import { dateRangeUtils } from '../../../../utils/dateRangeUtils';
 import ChartPeriodSearch from './ChartPeriodSearch';
 import Highchart from './Highchart';
@@ -64,7 +63,6 @@ const PumpChart = ({ row }: PumpChartProps) => {
         handleFromToDate={handleFromToDate}
         handleDateRange={handleDateRange}
       />
-      {/* <ComposedChartComponent fromToDate={fromToDate} /> */}
       <Styled.ChartWrapper>
         <Highchart fromToDate={fromToDate} />
       </Styled.ChartWrapper>

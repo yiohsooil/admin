@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { Theme } from '../theme';
 
 export const Container = styled.div`
   padding: 20px;
@@ -10,7 +11,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid ${Theme.colors.blackOverlay10};
   box-sizing: border-box;
 
   & p {
@@ -46,12 +47,12 @@ export const ListWrapper = styled.div``;
 export const ListItem = styled.div`
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: ${Theme.colors.white};
   border-radius: 6px;
 `;
 
 export const Link = styled.a`
-  color: #0073e6;
+  color: ${Theme.colors.blue500}
   text-decoration: none;
   fontweight: bold;
   word-wrap: break-word;

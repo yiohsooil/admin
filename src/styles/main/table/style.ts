@@ -9,11 +9,12 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Switch from '@mui/material/Switch';
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
+import { Theme } from '../../theme';
 
 export const InnerContainer = styled.div`
   display: flex;
   justify-content: flex-start;
-  background-color: #eef7ff;
+  background-color: ${Theme.colors.blue50};
   box-sizing: border-box;
   overflow-y: auto;
   height: 100%;
@@ -60,13 +61,15 @@ export const CustomTable = styled(Table)``;
 export const CustomTableBody = styled(TableBody)``;
 export const CustomTableCell = styled(TableCell)<{ active?: number }>`
   cursor: ${({ active }) => (active === 1 ? 'pointer' : 'default')};
-  color: ${({ active }) => (active === 1 ? '#1890ff' : '#000')};
+  color: ${({ active }) =>
+    active === 1 ? Theme.colors.blue500 : Theme.colors.black};
   transition: all 0.2s ease-out;
   font-size: 16px;
 `;
 export const CustomTableHead = styled(TableHead)<{ active?: number }>`
   & th {
-    border-right: 1px solid ${({ active }) => (active === 1 ? '#ccc' : 'none')};
+    border-right: 1px solid
+      ${({ active }) => (active === 1 ? Theme.colors.gray300 : 'none')};
   }
   & th:last-child {
     border-right: none;
@@ -77,14 +80,15 @@ export const CustomTableRow = styled(TableRow)<{ active?: number }>`
   transition: all 0.2s ease-out;
   &:hover {
     background-color: ${({ active }) =>
-      active === 1 ? 'rgba(0,0,0,0.05)' : 'none'};
+      active === 1 ? Theme.colors.blackOverlay5 : 'none'};
   }
 `;
 export const CustomSwitch = styled(Switch)`
-  width: 28px;
-  height: 16px;
+  width: 36px;
+  height: 17px;
   padding: 0;
   display: flex;
+  box-sizing: border-box;
 
   &:active .MuiSwitch-thumb {
     width: 15px;
@@ -95,21 +99,21 @@ export const CustomSwitch = styled(Switch)`
   }
 
   .MuiSwitch-switchBase {
-    padding: 2px;
+    padding: 2.5px;
 
     &.Mui-checked {
       transform: translateX(12px);
-      color: #fff;
+      color: ${Theme.colors.white};
 
       & + .MuiSwitch-track {
         opacity: 1;
-        background-color: #1890ff;
+        background-color: ${Theme.colors.blue500};
       }
     }
   }
 
   .MuiSwitch-thumb {
-    box-shadow: 0 2px 4px 0 rgb(0 35 11 / 20%);
+    box-shadow: 0 2px 4px 0 ${Theme.colors.darkGreenOverlay20}
     width: 12px;
     height: 12px;
     border-radius: 6px;
@@ -119,7 +123,7 @@ export const CustomSwitch = styled(Switch)`
   .MuiSwitch-track {
     border-radius: 8px;
     opacity: 1;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: ${Theme.colors.blackOverlay25};
     box-sizing: border-box;
   }
 `;

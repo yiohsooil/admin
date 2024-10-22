@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { Button } from '@mui/material';
 import { ButtonGroup } from '@mui/material';
+import { Theme } from '../../theme';
 
 export const Container = styled.div`
   width: 100%;
@@ -9,7 +10,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid ${Theme.colors.gray300};
   padding: 0 25px;
 `;
 
@@ -30,7 +31,7 @@ export const Label = styled.label`
   box-sizing: border-box;
 `;
 export const Input = styled.input`
-  border: 1px solid #ccc;
+  border: 1px solid ${Theme.colors.gray300};
   padding: 8px 12px;
 `;
 export const Span = styled.span`

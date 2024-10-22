@@ -1,5 +1,6 @@
 import React from 'react';
 import { useReactToPrint } from 'react-to-print';
+import { Theme } from '../styles/theme';
 
 const useHandlePrint = (ref: React.RefObject<HTMLDivElement>) =>
   useReactToPrint({
@@ -17,7 +18,7 @@ const useHandlePrint = (ref: React.RefObject<HTMLDivElement>) =>
           display: none !important;
         }
         table, th, td {
-          border: 1px solid #ccc !important;
+          border: 1px solid ${Theme.colors.gray300} !important;
           border-collapse: collapse !important;
         }
         @media print {

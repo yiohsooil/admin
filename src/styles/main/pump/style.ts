@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { Box, Button, Modal, Typography } from '@mui/material';
+import { Theme } from '../../theme';
 
 export const Container = styled.div`
   width: 80vw;
@@ -50,16 +51,16 @@ export const PumpTitle = styled.h1`
 export const PumpHistoryTitle = styled.h2`
   font-size: 18px;
   font-weight: bold;
-  background-color: #eee;
+  background-color: ${Theme.colors.gray100};
   width: 100%;
   padding: 15px 0;
   text-align: center;
-  border: 1px solid rgba(224, 224, 224, 1);
+  border: 1px solid ${Theme.colors.grayOverlay100};
   border-bottom: none;
 `;
 
 export const UserInfoContainer = styled.div`
-  border: 1px solid #ccc;
+  border: 1px solid ${Theme.colors.gray300};
   height: 40px;
   display: flex;
   box-sizing: border-box;
@@ -78,7 +79,7 @@ export const LabelText = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ccc;
+  background-color: ${Theme.colors.gray300};
   font-weight: bold;
   font-size: 14px;
 `;
@@ -107,8 +108,8 @@ export const ModalBox = styled(Box)`
   min-width: 800px;
   height: 90vh;
   overflow-y: auto;
-  background-color: #fff;
-  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1); /* 적절한 box-shadow 값으로 변경 */
+  background-color: ${Theme.colors.white};
+  box-shadow: 0px 4px 24px ${Theme.colors.blackOverlay10};
   padding: 12px 50px;
   display: flex;
   flex-direction: column;
@@ -122,7 +123,7 @@ export const EvaluationWrapper = styled.div`
   min-height: 50px;
   display: flex;
   align-items: center;
-  border: 1px solid #ccc;
+  border: 1px solid ${Theme.colors.gray300};
   margin-top: 20px;
 `;
 export const EvaluationLabel = styled.div`
@@ -136,7 +137,7 @@ export const EvaluationLabel = styled.div`
   font-weight: bold;
   font-size: 16px;
   padding: 20px;
-  background-color: #fff;
+  background-color: ${Theme.colors.white};
 `;
 
 export const EvaluationTextArea = styled.textarea`
@@ -155,5 +156,5 @@ export const EvaluationTextArea = styled.textarea`
   resize: none;
   overflow: hidden;
   padding: 20px;
-  border-left: 1px solid #ccc;
+  border-left: 1px solid ${Theme.colors.gray300};
 `;
