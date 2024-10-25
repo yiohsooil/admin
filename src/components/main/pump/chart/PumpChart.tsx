@@ -6,6 +6,7 @@ import dayjs from 'dayjs';
 import { dateRangeUtils } from '../../../../utils/dateRangeUtils';
 import ChartPeriodSearch from './ChartPeriodSearch';
 import Highchart from './Highchart';
+import { isValidDateRange } from '../../../../utils/isValidDateRange';
 
 interface PumpChartProps {
   row: MainType.RowsProps;
@@ -16,6 +17,26 @@ const PumpChart = ({ row }: PumpChartProps) => {
     fromDate: dayjs().startOf('day'),
     toDate: dayjs(),
   });
+
+  const handlePrevFromToDate = () => {
+    if (!isValidDateRange.isFromDateWithinThreeMonths(fromToDate.fromDate)) {
+      return;
+    }
+    setFromToDate((prev) => ({
+      fromDate: prev.fromDate.subtract(1, 'day'),
+      toDate: prev.toDate.subtract(1, 'day'),
+    }));
+  };
+
+  const handleNextFromToDate = () => {
+    if (!isValidDateRange.isToDateValid(fromToDate.toDate)) {
+      return;
+    }
+    setFromToDate((prev) => ({
+      fromDate: prev.fromDate.add(1, 'day'),
+      toDate: prev.toDate.add(1, 'day'),
+    }));
+  };
 
   const handleFromToDate = ({
     e,
@@ -62,6 +83,8 @@ const PumpChart = ({ row }: PumpChartProps) => {
         fromToDate={fromToDate}
         handleFromToDate={handleFromToDate}
         handleDateRange={handleDateRange}
+        handlePrevFromToDate={handlePrevFromToDate}
+        handleNextFromToDate={handleNextFromToDate}
       />
       <Styled.ChartWrapper>
         <Highchart fromToDate={fromToDate} />

@@ -1,6 +1,6 @@
 const chart = {
   height: 700,
-  zoomType: 'xy',
+  zoomType: 'x',
   panning: true,
   panKey: 'shift',
 };

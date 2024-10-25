@@ -66,7 +66,7 @@ export const UserInfoContainer = styled.div`
   box-sizing: border-box;
   width: 95%;
   justify-content: center;
-  margin: 10px auto;
+  margin: 10px auto 0 auto;
 `;
 
 export const TextWrapper = styled.div`
@@ -82,6 +82,7 @@ export const LabelText = styled.span`
   background-color: ${Theme.colors.gray300};
   font-weight: bold;
   font-size: 14px;
+  box-sizing: border-box;
 `;
 export const ValueText = styled.span`
   flex: 1;

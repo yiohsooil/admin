@@ -14,6 +14,12 @@ export interface fromToDateProps {
   toDate: dayjs.Dayjs;
 }
 
+export interface HandleMoveFromToDateProps {
+  fromToDate: fromToDateProps;
+  validCallback: (newDate: dayjs.Dayjs) => boolean;
+  conditionalValidCallback: ({ fromDate, toDate }: DateRangeProps) => boolean;
+}
+
 export interface HandleFromToDateProps {
   e: ChangeEvent<HTMLInputElement>;
   fromToDate: fromToDateProps;

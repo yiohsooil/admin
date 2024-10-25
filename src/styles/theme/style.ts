@@ -9,6 +9,8 @@ export const colors = {
   blackOverlay40: 'rgba(0, 0, 0, 0.4)',
   gray100: '#eee', // 밝은 회색
   gray300: '#ccc', // 중간 밝기 회색
+  gray500: '#999', // 중간 어두운 회색
+  gray600: '#777', // 어두운 회색에 가까운 중간 회색
   gray900: '#333', // 어두운 회색
   grayOverlay100: 'rgba(224, 224, 224, 1)',
   grayOverlay200: 'rgba(221,221,221, 0.2)',
@@ -24,8 +26,8 @@ export const colors = {
   dangerOverlay30: 'rgba(255,102,102, 0.3)',
   safety: '#3BD28D',
   safetyOverlay30: 'rgba(195,229,225, 0.3)',
-  warning: '#305394 ',
-  warningOverlay30: 'rgba(48,71,148, 0.3)',
+  warning: '#F3C623 ',
+  warningOverlay30: 'rgba(243,198,35, 0.3)',
   basal: '#0D72E833',
   bolus: '#1072E8',
 };

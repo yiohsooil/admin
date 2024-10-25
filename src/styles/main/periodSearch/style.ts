@@ -4,32 +4,41 @@ import { ButtonGroup } from '@mui/material';
 import { Theme } from '../../theme';
 
 export const Container = styled.div`
-  width: 100%;
-  height: auto;
+  width: 95%;
+  height: 60px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid ${Theme.colors.gray300};
-  padding: 0 25px;
+  border: 1px solid ${Theme.colors.gray300};
+  border-top: none;
+  margin: 0 auto;
 `;
 
 export const SearchWrapper = styled.div`
-  width: 100%;
-  height: auto;
+  height: 100%;
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  padding: 20px;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 60px;
 `;
 
 export const Label = styled.label`
-  font-size: 0.8rem;
-  width: 120px;
-  height: auto;
-  padding: 0 10px;
   box-sizing: border-box;
+  width: 100px;
+  height: 100%;
+  box-sizing: border-box;
+  border-right: 1px solid ${Theme.colors.gray300};
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 `;
+export const InputnWrapper = styled.div``;
+
 export const Input = styled.input`
   border: 1px solid ${Theme.colors.gray300};
   padding: 8px 12px;

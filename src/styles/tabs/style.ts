@@ -9,4 +9,5 @@ export const CustomTab = styled(Tab)`
 `;
 export const CustomBox = styled(Box)`
   padding: 0;
+  margin-top: 20px;
 `;

@@ -122,3 +122,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.highcharts-tooltip {
+  z-index: 1000 !important; /* z-index 적용 */
+  width: 500px !important; /* 넓이 적용 */
+  color: black; /* 텍스트 색상 적용 */
+}
+
+.highcharts-lables .highcharts-tooltip {
+  z-index: 1000 !important; /* z-index 적용 */
+  width: 500px !important; /* 넓이 적용 */
+  color: black; /* 텍스트 색상 적용 */
+}
+
+.custom-tootip {
+  background-color: 'red' !important;
+}

@@ -8,43 +8,48 @@ type xAxisType = {
 };
 
 const xAxis = ({ fromToDate, diffDays }: xAxisType) => {
+  const minValue = Date.UTC(
+    fromToDate.fromDate.year(),
+    fromToDate.fromDate.month(),
+    fromToDate.fromDate.date(),
+    0,
+    0,
+    0
+  );
+
+  const maxValue = Date.UTC(
+    fromToDate.toDate.year(),
+    fromToDate.toDate.month(),
+    fromToDate.toDate.date(),
+    23,
+    59,
+    59
+  );
+
   return {
     type: 'datetime',
-    opposite: true,
     labels: {
       formatter: function (this: Highcharts.AxisLabelsFormatterContextObject) {
         const date = new Date(this.value);
         const hours = date.getUTCHours();
-        if (hours === 0 && date.getUTCDate() !== fromToDate.fromDate.date()) {
+        const dayNames = ['일', '월', '화', '수', '목', '금', '토']; // 한국어 요일 배열
+        if (hours === 0) {
+          const dayOfWeek = dayNames[date.getUTCDay()];
           return Highcharts.dateFormat(
-            `${'%Y-%m-%d <br />'}24:00`,
+            `${dayOfWeek} ${'%d'}`,
             this.value as number
           );
         }
-        return Highcharts.dateFormat(
-          `${'%Y-%m-%d<br />'}%H:%M`,
-          this.value as number
-        );
+        return Highcharts.dateFormat(`%H:%M`, this.value as number);
       },
     },
-    min: Date.UTC(
-      fromToDate.fromDate.year(),
-      fromToDate.fromDate.month() + 1,
-      fromToDate.fromDate.date(),
-      0,
-      0,
-      0
-    ),
-    max: Date.UTC(
-      fromToDate.toDate.year(),
-      fromToDate.toDate.month() + 1,
-      fromToDate.toDate.date() + 1,
-      0,
-      0,
-      0
-    ),
-    tickPixelInterval: 180,
-    tickLength: 0,
+    min: minValue,
+    max: maxValue,
+    tickInterval:
+      (maxValue - minValue) / (24 * 3600 * 1000) <= 3
+        ? 6 * 3600 * 1000
+        : 24 * 3600 * 1000,
+    tickLength: 5,
     offset: 0,
     lineColor: Theme.colors.gray300,
     lineWidth: 2,

@@ -1,43 +1,15 @@
 import dayjs from 'dayjs';
 import { PumpType } from '../types';
 
-export const getTodayRange = () => {
-  const fromDate = dayjs().startOf('day').toDate();
+export const getDaysRange = (day: number) => {
+  const fromDate = dayjs().subtract(day, 'day').startOf('day').toDate();
   const toDate = dayjs().endOf('day').toDate();
 
   return { fromDate, toDate };
 };
 
-export const get3LastDaysRange = () => {
-  const fromDate = dayjs().subtract(3, 'day').startOf('day').toDate();
-  const toDate = dayjs().endOf('day').toDate();
-
-  return { fromDate, toDate };
-};
-
-export const getLastWeekRange = () => {
-  const fromDate = dayjs().subtract(7, 'day').startOf('day').toDate();
-  const toDate = dayjs().endOf('day').toDate();
-
-  return { fromDate, toDate };
-};
-
-export const getLast15DaysRange = () => {
-  const fromDate = dayjs().subtract(15, 'day').startOf('day').toDate();
-  const toDate = dayjs().endOf('day').toDate();
-
-  return { fromDate, toDate };
-};
-
-export const getLastMonthRange = () => {
-  const fromDate = dayjs().subtract(1, 'month').startOf('day').toDate();
-  const toDate = dayjs().endOf('day').toDate();
-
-  return { fromDate, toDate };
-};
-
-export const getLast3MonthsRange = () => {
-  const fromDate = dayjs().subtract(3, 'month').startOf('day').toDate();
+export const getMonthRange = (day: number) => {
+  const fromDate = dayjs().subtract(day, 'month').startOf('day').toDate();
   const toDate = dayjs().endOf('day').toDate();
 
   return { fromDate, toDate };
@@ -91,11 +63,7 @@ const fromToDateUtil = ({
 };
 
 export const dateRangeUtils = {
-  getTodayRange,
-  get3LastDaysRange,
-  getLastWeekRange,
-  getLast15DaysRange,
-  getLastMonthRange,
-  getLast3MonthsRange,
+  getDaysRange,
+  getMonthRange,
   fromToDateUtil,
 };
