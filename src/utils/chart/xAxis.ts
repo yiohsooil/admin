@@ -20,10 +20,10 @@ const xAxis = ({ fromToDate, diffDays }: xAxisType) => {
   const maxValue = Date.UTC(
     fromToDate.toDate.year(),
     fromToDate.toDate.month(),
-    fromToDate.toDate.date(),
-    23,
-    59,
-    59
+    fromToDate.toDate.date() + 1,
+    0,
+    0,
+    0
   );
 
   return {
@@ -53,6 +53,10 @@ const xAxis = ({ fromToDate, diffDays }: xAxisType) => {
     offset: 0,
     lineColor: Theme.colors.gray300,
     lineWidth: 2,
+    startOnTick: false, // 데이터 시작에 맞게 설정
+    endOnTick: false, // 데이터 끝에 맞게 설정
+    minPadding: 0, // 왼쪽 여백 제거
+    maxPadding: 0, // 오른쪽 여백 제거
   };
 };
 
