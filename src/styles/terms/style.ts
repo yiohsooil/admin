@@ -31,6 +31,9 @@ export const PrivacyTitle = styled.h1`
   padding-bottom: 20px;
   font-size: 18px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const SectionTitle = styled.h2`

@@ -4,7 +4,7 @@ import { Styled } from '../styles/privacy';
 const Privacy = () => {
   return (
     <Styled.Container>
-      <Styled.PrivacyTitle>{`<개인정보처리방침>`}</Styled.PrivacyTitle>
+      <Styled.PrivacyTitle>개인정보처리방침</Styled.PrivacyTitle>
       <Styled.Paragraph>
         (주)수일개발(이하 '회사'라 합니다)은 AnyDANAPlus 서비스 이용자의
         개인정보를 매우 중요시하며, 「정보통신망 이용촉진 및 정보보호 등에 관한

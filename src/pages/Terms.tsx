@@ -4,7 +4,7 @@ import { Styled } from '../styles/terms';
 const Terms = () => {
   return (
     <Styled.Container>
-      <Styled.PrivacyTitle>(필수) AnyDANAPlus 이용 약관</Styled.PrivacyTitle>
+      <Styled.PrivacyTitle>AnyDANAPlus 이용 약관</Styled.PrivacyTitle>
       <Styled.SectionTitle>제1조 (목적)</Styled.SectionTitle>
       <Styled.Paragraph>
         본 이용약관은 수일개발(이하 “회사”)에서 제공하는 개인용 의료정보

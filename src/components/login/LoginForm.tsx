@@ -20,6 +20,7 @@ const LoginForm = () => {
   const { mutate } = useLogin();
 
   const onSubmit: SubmitHandler<LoginType.LoginFormProps> = (data) => {
+    console.log(data);
     mutate(data);
   };
 

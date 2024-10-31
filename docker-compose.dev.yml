@@ -1,0 +1,8 @@
+services:
+  dev_admin:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - '3000:5173'
+    stdin_open: true

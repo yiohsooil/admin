@@ -2,7 +2,7 @@ import { ApiType } from '../../types';
 import { axiosInstance } from './axios';
 
 const fetchLogin = async ({ id, password }: ApiType.LoginProps) => {
-  const response = await axiosInstance.post('/api/adminSignIn', {
+  const response = await axiosInstance.post('/admin/signIn', {
     id,
     password,
   });

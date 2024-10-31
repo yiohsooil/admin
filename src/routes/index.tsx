@@ -32,11 +32,11 @@ const router = createBrowserRouter([
         index: true,
         element: <Main />,
       },
-      {
-        path: '*', // 모든 다른 경로에 대해 404 페이지
-        element: <NotFound />,
-      },
     ],
+  },
+  {
+    path: '*', // 모든 다른 경로에 대해 404 페이지
+    element: <NotFound />,
   },
 ]);
 
